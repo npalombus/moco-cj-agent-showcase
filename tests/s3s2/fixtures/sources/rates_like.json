@@ -1,0 +1,139 @@
+{
+ "id": "FIXTURE:rates_like",
+ "data_class": "COUNTY_OPEN_DATA",
+ "fixture_note": "SYNTHETIC: made up for the Part S2 tests by tests/s3s2/fixtures/make_fixtures.py. Not Census data and not county data: every figure is invented. data_class says COUNTY_OPEN_DATA only so that county mode reads it.",
+ "title": "SYNTHETIC fixture arrests for rates (made up for tests)",
+ "publisher": "SYNTHETIC fixture publisher (made up for tests)",
+ "address": "https://fixture.invalid/resource/rates-like.json",
+ "page": "https://fixture.invalid/d/rates-like",
+ "row_meaning": "one made-up arrest",
+ "unit": {
+  "one": "arrest record",
+  "many": "arrest records"
+ },
+ "is_not": [
+  "people",
+  "charges",
+  "cases",
+  "convictions",
+  "sentences",
+  "a rate"
+ ],
+ "time_field": "event_date_time",
+ "coverage_start": "2021-01-01",
+ "floor": 10,
+ "rates": true,
+ "fields": [
+  {
+   "name": "id",
+   "kind": "key"
+  },
+  {
+   "name": "age",
+   "kind": "age",
+   "usable": [
+    10,
+    98
+   ],
+   "bands": [
+    [
+     10,
+     17
+    ],
+    [
+     18,
+     24
+    ],
+    [
+     25,
+     34
+    ],
+    [
+     35,
+     44
+    ],
+    [
+     45,
+     54
+    ],
+    [
+     55,
+     98
+    ]
+   ],
+   "sensitive": false
+  },
+  {
+   "name": "gender",
+   "kind": "category",
+   "person": true,
+   "sensitive": true,
+   "dimension": "gender",
+   "wording": "recorded as {labels}",
+   "values": {
+    "Female": "female",
+    "Male": "male"
+   }
+  },
+  {
+   "name": "race",
+   "kind": "category",
+   "person": true,
+   "sensitive": true,
+   "dimension": "race",
+   "wording": "recorded as {labels}",
+   "values": {
+    "Black/African American": "Black or African American",
+    "White": "White",
+    "Asian": "Asian",
+    "American Indian/ALSK Natv": "American Indian or Alaska Native",
+    "Hawaiian/Pacific Islander": "Native Hawaiian or Pacific Islander",
+    "Unknown": "race unknown"
+   }
+  },
+  {
+   "name": "ethnicity",
+   "kind": "category",
+   "person": true,
+   "sensitive": true,
+   "dimension": "ethnicity",
+   "wording": "recorded as {labels}",
+   "values": {
+    "HISPANIC": "Hispanic",
+    "NON-HISPANIC": "not Hispanic"
+   }
+  },
+  {
+   "name": "district",
+   "kind": "category",
+   "person": false,
+   "sensitive": false,
+   "dimension": "district",
+   "wording": "in {labels}",
+   "values": {
+    "1": "district 1",
+    "2": "district 2",
+    "3": "district 3",
+    "4": "district 4",
+    "5": "district 5",
+    "6": "district 6",
+    "8": "district 8"
+   }
+  },
+  {
+   "name": "adjacent_to_school",
+   "kind": "flag",
+   "dimension": "distance from a school",
+   "yes_raw": "1",
+   "no_raw": "0",
+   "yes": "within 500 feet of a school",
+   "no": "not within 500 feet of a school"
+  }
+ ],
+ "notices": [
+  "SYNTHETIC fixture notice: these records are made up for tests and come from no county."
+ ],
+ "approved_by": "nobody (test fixture)",
+ "approved_on": "2026-11-13",
+ "approval_record": "none: a SYNTHETIC test fixture"
+}

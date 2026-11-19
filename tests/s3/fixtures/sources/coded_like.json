@@ -1,0 +1,104 @@
+{
+  "id": "FIXTURE:coded_like",
+  "data_class": "COUNTY_OPEN_DATA",
+  "fixture_note": "SYNTHETIC: made up for the stage 3 Part A tests by tests/s3/fixtures/make_fixtures.py. Not county data; no row is a real record. data_class says COUNTY_OPEN_DATA only so that county mode reads it.",
+  "title": "SYNTHETIC fixture intake records (made up for tests)",
+  "publisher": "SYNTHETIC fixture publisher (made up for tests)",
+  "address": "https://fixture.invalid/resource/coded-like.json",
+  "page": "https://fixture.invalid/d/coded-like",
+  "row_meaning": "one made-up intake",
+  "unit": {
+    "one": "intake record",
+    "many": "intake records"
+  },
+  "is_not": [
+    "people",
+    "charges",
+    "cases",
+    "a rate"
+  ],
+  "time_field": "booked_at",
+  "coverage_start": "2025-01-01",
+  "floor": 10,
+  "fields": [
+    {
+      "name": "case_no",
+      "kind": "key"
+    },
+    {
+      "name": "age_years",
+      "kind": "age",
+      "usable": [
+        12,
+        90
+      ],
+      "bands": [
+        [
+          12,
+          17
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          30,
+          49
+        ],
+        [
+          50,
+          90
+        ]
+      ],
+      "sensitive": false
+    },
+    {
+      "name": "race_code",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "race",
+      "wording": "recorded as {labels}",
+      "values": {
+        "W": "group W",
+        "White": "group W",
+        "B": "group B",
+        "Blk": "group B",
+        "U": "group U"
+      }
+    },
+    {
+      "name": "sex",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "sex",
+      "wording": "recorded as {labels}",
+      "values": {
+        "F": "female",
+        "M": "male"
+      }
+    },
+    {
+      "name": "station",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "station",
+      "wording": "at {labels}",
+      "values": {
+        "1D": "station 1",
+        "2D": "station 2",
+        "2nd": "station 2",
+        "3D": "station 3",
+        "3rd": "station 3"
+      }
+    }
+  ],
+  "notices": [
+    "SYNTHETIC coded fixture notice: made up for tests; no county publishes this."
+  ],
+  "approved_by": "nobody (test fixture)",
+  "approved_on": "2026-11-12",
+  "approval_record": "none: a SYNTHETIC test fixture"
+}

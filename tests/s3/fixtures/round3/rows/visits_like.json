@@ -1,0 +1,221 @@
+{
+  "note": "SYNTHETIC: made up for the stage 3 Part A round 3 tests by tests/s3/fixtures/make_round3_fixture.py. Not county data; no row is a real record.",
+  "rows": [
+    {
+      "id": "FIXTURE-V-0011",
+      "visited_at": "2025-01-20T01:03:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0033",
+      "visited_at": "2025-02-03T20:40:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0023",
+      "visited_at": "2025-02-27T02:18:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0030",
+      "visited_at": "2025-03-18T17:21:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0003",
+      "visited_at": "2025-04-22T15:29:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0014",
+      "visited_at": "2025-05-02T09:47:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0034",
+      "visited_at": "2025-05-08T14:11:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0029",
+      "visited_at": "2025-05-22T01:12:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0035",
+      "visited_at": "2025-06-26T02:53:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0013",
+      "visited_at": "2025-07-07T16:54:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0010",
+      "visited_at": "2025-07-29T12:11:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0026",
+      "visited_at": "2025-08-06T04:52:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0032",
+      "visited_at": "2025-08-31T21:34:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0005",
+      "visited_at": "2025-09-05T16:49:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0036",
+      "visited_at": "2025-09-12T16:03:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0007",
+      "visited_at": "2025-09-16T01:51:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0024",
+      "visited_at": "2025-09-26T09:33:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0009",
+      "visited_at": "2025-09-27T07:38:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0008",
+      "visited_at": "2025-10-08T15:28:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0002",
+      "visited_at": "2025-11-11T03:15:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0006",
+      "visited_at": "2025-11-17T00:45:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0020",
+      "visited_at": "2025-11-18T19:16:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0018",
+      "visited_at": "2025-12-02T16:51:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0031",
+      "visited_at": "2025-12-09T15:36:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0025",
+      "visited_at": "2025-12-29T05:58:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0012",
+      "visited_at": "2026-01-05T21:39:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0004",
+      "visited_at": "2026-01-10T05:07:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0022",
+      "visited_at": "2026-03-12T15:45:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0027",
+      "visited_at": "2026-03-12T15:48:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0015",
+      "visited_at": "2026-03-12T20:34:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0019",
+      "visited_at": "2026-03-29T06:08:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0001",
+      "visited_at": "2026-03-31T15:04:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0017",
+      "visited_at": "2026-03-31T21:51:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0021",
+      "visited_at": "2026-04-11T07:16:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0016",
+      "visited_at": "2026-05-27T21:06:00.000",
+      "area": "S",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "id": "FIXTURE-V-0028",
+      "visited_at": "2026-06-28T10:31:00.000",
+      "area": "N",
+      "data_class": "SYNTHETIC"
+    }
+  ]
+}

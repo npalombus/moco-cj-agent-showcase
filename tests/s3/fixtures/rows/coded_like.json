@@ -1,0 +1,2702 @@
+{
+  "note": "SYNTHETIC: made up for the stage 3 Part A tests by tests/s3/fixtures/make_fixtures.py. Not county data; no row is a real record.",
+  "rows": [
+    {
+      "case_no": "FIXTURE-C-0189",
+      "booked_at": "2025-05-03T20:59:00.000",
+      "age_years": "22",
+      "race_code": "White",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0078",
+      "booked_at": "2025-08-02T10:52:00.000",
+      "age_years": "12",
+      "race_code": "White",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0208",
+      "booked_at": "2026-06-29T06:28:00.000",
+      "age_years": "17",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0207",
+      "booked_at": "2026-06-29T17:53:00.000",
+      "age_years": "13",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0272",
+      "booked_at": "2026-06-10T12:46:00.000",
+      "age_years": "33",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0047",
+      "booked_at": "2025-06-29T08:43:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0171",
+      "booked_at": "2025-03-20T19:17:00.000",
+      "age_years": "22",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0155",
+      "booked_at": "2025-12-10T12:08:00.000",
+      "age_years": "63",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0195",
+      "booked_at": "2025-09-16T20:55:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0196",
+      "booked_at": "2025-08-28T20:56:00.000",
+      "age_years": "14",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0001",
+      "booked_at": "2025-09-13T23:09:00.000",
+      "age_years": "27",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0023",
+      "booked_at": "2025-04-30T02:29:00.000",
+      "age_years": "50",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0054",
+      "booked_at": "2025-07-08T21:13:00.000",
+      "age_years": "14",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0150",
+      "booked_at": "2025-05-17T22:42:00.000",
+      "age_years": "29",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0263",
+      "booked_at": "2026-05-07T20:25:00.000",
+      "age_years": "70",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0187",
+      "booked_at": "2025-04-04T00:09:00.000",
+      "age_years": "50",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0081",
+      "booked_at": "2025-05-05T08:00:00.000",
+      "age_years": "41",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0249",
+      "booked_at": "2026-06-11T08:27:00.000",
+      "age_years": "45",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0103",
+      "booked_at": "2025-12-17T20:33:00.000",
+      "age_years": "90",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0141",
+      "booked_at": "2025-08-20T23:01:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0145",
+      "booked_at": "2025-01-10T11:47:00.000",
+      "age_years": "27",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0248",
+      "booked_at": "2026-05-18T21:19:00.000",
+      "age_years": "45",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0277",
+      "booked_at": "2026-07-24T12:59:00.000",
+      "age_years": "13",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0215",
+      "booked_at": "2026-08-07T17:23:00.000",
+      "age_years": "19",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0063",
+      "booked_at": "2025-05-26T18:22:00.000",
+      "age_years": "17",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0012",
+      "booked_at": "2025-10-30T02:45:00.000",
+      "age_years": "16",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0165",
+      "booked_at": "2025-03-01T09:30:00.000",
+      "age_years": "90",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0176",
+      "booked_at": "2025-05-19T06:21:00.000",
+      "age_years": "12",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0140",
+      "booked_at": "2025-01-15T02:12:00.000",
+      "age_years": "30",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0199",
+      "booked_at": "2025-10-17T18:54:00.000",
+      "age_years": "63",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0280",
+      "booked_at": "2026-04-28T19:07:00.000",
+      "age_years": "58",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0013",
+      "booked_at": "2025-03-23T17:45:00.000",
+      "age_years": "14",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0225",
+      "booked_at": "2026-07-20T12:54:00.000",
+      "age_years": "25",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0044",
+      "booked_at": "2025-09-08T00:04:00.000",
+      "age_years": "90",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0164",
+      "booked_at": "2025-05-13T09:34:00.000",
+      "age_years": "30",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0205",
+      "booked_at": "2026-02-26T01:23:00.000",
+      "age_years": "17",
+      "race_code": "White",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0209",
+      "booked_at": "2026-01-26T14:31:00.000",
+      "age_years": "25",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0235",
+      "booked_at": "2026-05-03T04:23:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0126",
+      "booked_at": "2025-01-19T00:24:00.000",
+      "age_years": "29",
+      "race_code": "White",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0029",
+      "booked_at": "2025-04-28T18:40:00.000",
+      "age_years": "63",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0120",
+      "booked_at": "2025-04-12T10:42:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0267",
+      "booked_at": "2026-05-04T17:38:00.000",
+      "age_years": "58",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0095",
+      "booked_at": "2025-06-07T04:42:00.000",
+      "age_years": "41",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0233",
+      "booked_at": "2026-08-11T23:03:00.000",
+      "age_years": "25",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0158",
+      "booked_at": "2025-03-23T23:45:00.000",
+      "age_years": "29",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0032",
+      "booked_at": "2025-09-16T03:23:00.000",
+      "age_years": "29",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0274",
+      "booked_at": "2026-07-01T20:13:00.000",
+      "age_years": "70",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0261",
+      "booked_at": "2026-01-23T17:29:00.000",
+      "age_years": "25",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0181",
+      "booked_at": "2025-08-25T01:50:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0185",
+      "booked_at": "2025-10-22T13:59:00.000",
+      "age_years": "29",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0042",
+      "booked_at": "2025-02-18T01:54:00.000",
+      "age_years": "16",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0114",
+      "booked_at": "2025-11-01T10:02:00.000",
+      "age_years": "41",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0266",
+      "booked_at": "2026-01-05T02:18:00.000",
+      "age_years": "25",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0118",
+      "booked_at": "2025-01-16T11:28:00.000",
+      "age_years": "41",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0111",
+      "booked_at": "2025-01-22T17:32:00.000",
+      "age_years": "63",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0131",
+      "booked_at": "2025-07-23T16:12:00.000",
+      "age_years": "17",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0026",
+      "booked_at": "2025-04-24T09:44:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0293",
+      "booked_at": "2026-02-05T18:47:00.000",
+      "age_years": "45",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0167",
+      "booked_at": "2025-11-14T07:12:00.000",
+      "age_years": "16",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0088",
+      "booked_at": "2025-02-02T22:50:00.000",
+      "age_years": "14",
+      "race_code": "W",
+      "sex": "M",
+      "station": "",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0027",
+      "booked_at": "2025-10-11T06:59:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0201",
+      "booked_at": "2026-08-20T13:05:00.000",
+      "age_years": "58",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0100",
+      "booked_at": "2025-05-04T11:36:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0228",
+      "booked_at": "2026-03-30T14:07:00.000",
+      "age_years": "33",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0217",
+      "booked_at": "2026-03-08T16:07:00.000",
+      "age_years": "25",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0043",
+      "booked_at": "2025-11-28T14:38:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0049",
+      "booked_at": "2025-06-06T21:05:00.000",
+      "age_years": "41",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0080",
+      "booked_at": "2025-10-03T19:17:00.000",
+      "age_years": "18",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0160",
+      "booked_at": "2025-06-02T04:53:00.000",
+      "age_years": "12",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0075",
+      "booked_at": "2025-07-19T04:01:00.000",
+      "age_years": "22",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0222",
+      "booked_at": "2026-07-03T20:09:00.000",
+      "age_years": "70",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0268",
+      "booked_at": "2026-03-04T04:42:00.000",
+      "age_years": "17",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0177",
+      "booked_at": "2025-12-24T13:09:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0064",
+      "booked_at": "2025-11-10T09:37:00.000",
+      "age_years": "29",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0279",
+      "booked_at": "2026-02-24T21:02:00.000",
+      "age_years": "17",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0285",
+      "booked_at": "2026-08-14T12:08:00.000",
+      "age_years": "33",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0254",
+      "booked_at": "2026-02-08T10:45:00.000",
+      "age_years": "58",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0125",
+      "booked_at": "2025-07-07T11:30:00.000",
+      "age_years": "14",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0092",
+      "booked_at": "2025-06-28T20:41:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0153",
+      "booked_at": "2025-07-15T06:58:00.000",
+      "age_years": "12",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0104",
+      "booked_at": "2025-09-07T10:52:00.000",
+      "age_years": "12",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0102",
+      "booked_at": "2025-07-16T21:45:00.000",
+      "age_years": "16",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0161",
+      "booked_at": "2025-11-17T15:14:00.000",
+      "age_years": "14",
+      "race_code": "W",
+      "sex": "F",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0079",
+      "booked_at": "2025-12-30T18:01:00.000",
+      "age_years": "12",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0068",
+      "booked_at": "2025-02-05T02:18:00.000",
+      "age_years": "30",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0269",
+      "booked_at": "2026-02-08T15:09:00.000",
+      "age_years": "33",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0072",
+      "booked_at": "2025-07-15T02:26:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0156",
+      "booked_at": "2025-09-30T00:40:00.000",
+      "age_years": "18",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0299",
+      "booked_at": "2026-01-08T18:00:00.000",
+      "age_years": "19",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0076",
+      "booked_at": "2025-01-27T20:38:00.000",
+      "age_years": "30",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0069",
+      "booked_at": "2025-10-25T21:51:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0074",
+      "booked_at": "2025-09-02T12:39:00.000",
+      "age_years": "90",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0041",
+      "booked_at": "2025-12-27T20:26:00.000",
+      "age_years": "16",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0113",
+      "booked_at": "2025-02-11T17:39:00.000",
+      "age_years": "16",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0224",
+      "booked_at": "2026-03-24T07:11:00.000",
+      "age_years": "13",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0188",
+      "booked_at": "2025-03-29T11:42:00.000",
+      "age_years": "49",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0178",
+      "booked_at": "2025-10-31T22:59:00.000",
+      "age_years": "41",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0287",
+      "booked_at": "2026-03-06T07:54:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0149",
+      "booked_at": "2025-01-03T08:54:00.000",
+      "age_years": "16",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0242",
+      "booked_at": "2026-01-02T02:22:00.000",
+      "age_years": "17",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0040",
+      "booked_at": "2025-01-14T04:43:00.000",
+      "age_years": "63",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0211",
+      "booked_at": "2026-03-10T16:47:00.000",
+      "age_years": "25",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0105",
+      "booked_at": "2025-12-25T15:23:00.000",
+      "age_years": "16",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0247",
+      "booked_at": "2026-02-13T07:21:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0297",
+      "booked_at": "2026-07-24T08:57:00.000",
+      "age_years": "25",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0084",
+      "booked_at": "2025-01-14T09:05:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0128",
+      "booked_at": "2025-12-21T22:07:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0210",
+      "booked_at": "2026-04-29T13:14:00.000",
+      "age_years": "70",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0218",
+      "booked_at": "2026-06-27T22:15:00.000",
+      "age_years": "19",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0288",
+      "booked_at": "2026-05-05T19:01:00.000",
+      "age_years": "70",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0127",
+      "booked_at": "2025-12-16T20:08:00.000",
+      "age_years": "41",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0093",
+      "booked_at": "2025-01-19T07:33:00.000",
+      "age_years": "22",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0073",
+      "booked_at": "2025-12-08T01:01:00.000",
+      "age_years": "17",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0206",
+      "booked_at": "2026-01-10T01:53:00.000",
+      "age_years": "33",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0031",
+      "booked_at": "2025-10-05T07:02:00.000",
+      "age_years": "27",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0232",
+      "booked_at": "2026-06-22T08:24:00.000",
+      "age_years": "45",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0050",
+      "booked_at": "2025-01-16T10:46:00.000",
+      "age_years": "27",
+      "race_code": "White",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0135",
+      "booked_at": "2025-03-28T22:08:00.000",
+      "age_years": "90",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0142",
+      "booked_at": "2025-06-12T04:59:00.000",
+      "age_years": "90",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0250",
+      "booked_at": "2026-08-14T10:25:00.000",
+      "age_years": "33",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0004",
+      "booked_at": "2025-01-27T03:37:00.000",
+      "age_years": "16",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0239",
+      "booked_at": "2026-07-07T12:08:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0289",
+      "booked_at": "2026-06-02T10:55:00.000",
+      "age_years": "25",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0203",
+      "booked_at": "2026-01-24T17:03:00.000",
+      "age_years": "17",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0136",
+      "booked_at": "2025-04-14T14:00:00.000",
+      "age_years": "30",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0146",
+      "booked_at": "2025-05-06T02:47:00.000",
+      "age_years": "22",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0129",
+      "booked_at": "2025-12-02T10:16:00.000",
+      "age_years": "30",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0214",
+      "booked_at": "2026-08-09T10:48:00.000",
+      "age_years": "33",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0283",
+      "booked_at": "2026-02-15T20:13:00.000",
+      "age_years": "19",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0045",
+      "booked_at": "2025-08-27T09:50:00.000",
+      "age_years": "14",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0062",
+      "booked_at": "2025-10-19T09:39:00.000",
+      "age_years": "90",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0108",
+      "booked_at": "2025-06-08T17:41:00.000",
+      "age_years": "41",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0121",
+      "booked_at": "2025-01-07T02:00:00.000",
+      "age_years": "30",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0197",
+      "booked_at": "2025-11-06T04:25:00.000",
+      "age_years": "12",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0038",
+      "booked_at": "2025-05-22T22:15:00.000",
+      "age_years": "16",
+      "race_code": "B",
+      "sex": "M",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0300",
+      "booked_at": "2026-08-10T08:48:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0021",
+      "booked_at": "2025-03-24T16:44:00.000",
+      "age_years": "49",
+      "race_code": "B",
+      "sex": "M",
+      "station": "4D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0018",
+      "booked_at": "2025-03-12T19:46:00.000",
+      "age_years": "30",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0234",
+      "booked_at": "2026-01-12T10:12:00.000",
+      "age_years": "19",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0182",
+      "booked_at": "2025-10-12T09:20:00.000",
+      "age_years": "50",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0255",
+      "booked_at": "2026-02-08T14:08:00.000",
+      "age_years": "13",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0221",
+      "booked_at": "2026-05-29T02:35:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0256",
+      "booked_at": "2026-04-07T10:04:00.000",
+      "age_years": "58",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0251",
+      "booked_at": "2026-01-21T11:53:00.000",
+      "age_years": "19",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0019",
+      "booked_at": "2025-09-10T23:00:00.000",
+      "age_years": "17",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0059",
+      "booked_at": "2025-03-30T23:22:00.000",
+      "age_years": "17",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0183",
+      "booked_at": "2025-09-22T22:48:00.000",
+      "age_years": "27",
+      "race_code": "White",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0190",
+      "booked_at": "2025-02-20T02:46:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0276",
+      "booked_at": "2026-05-25T17:53:00.000",
+      "age_years": "45",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0173",
+      "booked_at": "2025-11-07T14:01:00.000",
+      "age_years": "16",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0294",
+      "booked_at": "2026-04-04T14:09:00.000",
+      "age_years": "13",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0166",
+      "booked_at": "2025-10-11T07:40:00.000",
+      "age_years": "14",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0264",
+      "booked_at": "2026-05-03T18:10:00.000",
+      "age_years": "19",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0227",
+      "booked_at": "2026-08-10T13:59:00.000",
+      "age_years": "19",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0086",
+      "booked_at": "2025-05-02T02:36:00.000",
+      "age_years": "63",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0033",
+      "booked_at": "2025-02-27T03:35:00.000",
+      "age_years": "30",
+      "race_code": "White",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0110",
+      "booked_at": "2025-06-29T09:51:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0244",
+      "booked_at": "2026-08-11T21:09:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0284",
+      "booked_at": "2026-07-02T06:39:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0003",
+      "booked_at": "2025-01-29T12:01:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0052",
+      "booked_at": "2025-03-12T20:46:00.000",
+      "age_years": "29",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0107",
+      "booked_at": "2025-09-12T10:39:00.000",
+      "age_years": "50",
+      "race_code": "U",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0262",
+      "booked_at": "2026-07-12T10:48:00.000",
+      "age_years": "25",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0030",
+      "booked_at": "2025-09-15T04:32:00.000",
+      "age_years": "22",
+      "race_code": "White",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0101",
+      "booked_at": "2025-01-07T20:46:00.000",
+      "age_years": "12",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0061",
+      "booked_at": "2025-08-14T15:52:00.000",
+      "age_years": "16",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0119",
+      "booked_at": "2025-02-02T23:07:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0194",
+      "booked_at": "2025-09-04T03:04:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0213",
+      "booked_at": "2026-03-21T20:56:00.000",
+      "age_years": "17",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0198",
+      "booked_at": "2025-11-02T19:29:00.000",
+      "age_years": "63",
+      "race_code": "U",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0089",
+      "booked_at": "2025-03-08T22:11:00.000",
+      "age_years": "16",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0053",
+      "booked_at": "2025-10-14T07:56:00.000",
+      "age_years": "63",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0034",
+      "booked_at": "2025-03-24T08:47:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0281",
+      "booked_at": "2026-06-26T13:18:00.000",
+      "age_years": "17",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0109",
+      "booked_at": "2025-07-23T12:25:00.000",
+      "age_years": "16",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0241",
+      "booked_at": "2026-01-29T09:39:00.000",
+      "age_years": "70",
+      "race_code": "U",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0273",
+      "booked_at": "2026-03-26T15:08:00.000",
+      "age_years": "70",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0139",
+      "booked_at": "2025-06-20T22:04:00.000",
+      "age_years": "49",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0286",
+      "booked_at": "2026-05-30T10:46:00.000",
+      "age_years": "58",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0278",
+      "booked_at": "2026-05-19T03:55:00.000",
+      "age_years": "25",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0154",
+      "booked_at": "2025-11-26T04:12:00.000",
+      "age_years": "49",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0116",
+      "booked_at": "2025-11-25T08:01:00.000",
+      "age_years": "30",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0151",
+      "booked_at": "2025-10-03T17:54:00.000",
+      "age_years": "22",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0066",
+      "booked_at": "2025-06-02T21:38:00.000",
+      "age_years": "90",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0058",
+      "booked_at": "2025-03-26T09:44:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0192",
+      "booked_at": "2025-06-21T07:00:00.000",
+      "age_years": "49",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0157",
+      "booked_at": "2025-09-12T02:00:00.000",
+      "age_years": "49",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0098",
+      "booked_at": "2025-02-16T12:32:00.000",
+      "age_years": "17",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0005",
+      "booked_at": "2025-12-31T10:01:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0090",
+      "booked_at": "2025-08-10T12:27:00.000",
+      "age_years": "29",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0290",
+      "booked_at": "2026-06-29T14:37:00.000",
+      "age_years": "25",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0282",
+      "booked_at": "2026-07-21T06:57:00.000",
+      "age_years": "19",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0055",
+      "booked_at": "2025-10-26T07:01:00.000",
+      "age_years": "30",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0238",
+      "booked_at": "2026-04-28T14:52:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0237",
+      "booked_at": "2026-03-22T02:50:00.000",
+      "age_years": "45",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0212",
+      "booked_at": "2026-03-22T10:21:00.000",
+      "age_years": "17",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0180",
+      "booked_at": "2025-07-12T14:42:00.000",
+      "age_years": "30",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0133",
+      "booked_at": "2025-07-13T00:20:00.000",
+      "age_years": "50",
+      "race_code": "White",
+      "sex": "M",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0009",
+      "booked_at": "2025-02-07T11:03:00.000",
+      "age_years": "16",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0115",
+      "booked_at": "2025-09-07T18:26:00.000",
+      "age_years": "27",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0147",
+      "booked_at": "2025-02-06T06:40:00.000",
+      "age_years": "22",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0231",
+      "booked_at": "2026-02-05T13:58:00.000",
+      "age_years": "70",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0253",
+      "booked_at": "2026-05-03T17:18:00.000",
+      "age_years": "58",
+      "race_code": "U",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0020",
+      "booked_at": "2025-05-12T04:09:00.000",
+      "age_years": "50",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0291",
+      "booked_at": "2026-07-05T21:14:00.000",
+      "age_years": "45",
+      "race_code": "B",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0258",
+      "booked_at": "2026-03-01T21:04:00.000",
+      "age_years": "33",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0219",
+      "booked_at": "2026-05-27T15:42:00.000",
+      "age_years": "17",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0193",
+      "booked_at": "2025-12-03T02:54:00.000",
+      "age_years": "16",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0071",
+      "booked_at": "2025-07-23T10:00:00.000",
+      "age_years": "14",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0172",
+      "booked_at": "2025-07-31T21:21:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0163",
+      "booked_at": "2025-01-14T21:56:00.000",
+      "age_years": "41",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0162",
+      "booked_at": "2025-08-25T15:30:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0259",
+      "booked_at": "2026-04-11T01:19:00.000",
+      "age_years": "17",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0065",
+      "booked_at": "2025-04-19T07:32:00.000",
+      "age_years": "41",
+      "race_code": "White",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0152",
+      "booked_at": "2025-12-08T08:26:00.000",
+      "age_years": "27",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0124",
+      "booked_at": "2025-07-24T21:36:00.000",
+      "age_years": "29",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0106",
+      "booked_at": "2025-07-31T23:36:00.000",
+      "age_years": "18",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0271",
+      "booked_at": "2026-02-28T23:19:00.000",
+      "age_years": "25",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0240",
+      "booked_at": "2026-03-25T23:13:00.000",
+      "age_years": "33",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0037",
+      "booked_at": "2025-04-13T09:29:00.000",
+      "age_years": "63",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0010",
+      "booked_at": "2025-03-07T20:11:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0094",
+      "booked_at": "2025-02-21T12:11:00.000",
+      "age_years": "29",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0144",
+      "booked_at": "2025-09-17T18:42:00.000",
+      "age_years": "63",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0216",
+      "booked_at": "2026-07-22T14:02:00.000",
+      "age_years": "45",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0117",
+      "booked_at": "2025-06-17T22:45:00.000",
+      "age_years": "90",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0230",
+      "booked_at": "2026-03-27T13:19:00.000",
+      "age_years": "33",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0186",
+      "booked_at": "2025-02-27T22:45:00.000",
+      "age_years": "50",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0159",
+      "booked_at": "2025-12-08T12:36:00.000",
+      "age_years": "18",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0260",
+      "booked_at": "2026-07-28T01:15:00.000",
+      "age_years": "33",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0184",
+      "booked_at": "2025-12-09T23:02:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0035",
+      "booked_at": "2025-08-03T01:31:00.000",
+      "age_years": "18",
+      "race_code": "U",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0112",
+      "booked_at": "2025-05-07T14:18:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0002",
+      "booked_at": "2025-02-19T22:02:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0048",
+      "booked_at": "2025-06-02T08:38:00.000",
+      "age_years": "27",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0275",
+      "booked_at": "2026-07-02T01:12:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0223",
+      "booked_at": "2026-01-25T09:38:00.000",
+      "age_years": "45",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0123",
+      "booked_at": "2025-03-13T04:15:00.000",
+      "age_years": "22",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0168",
+      "booked_at": "2025-09-21T18:41:00.000",
+      "age_years": "12",
+      "race_code": "U",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0087",
+      "booked_at": "2025-11-04T06:47:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0200",
+      "booked_at": "2025-08-13T16:22:00.000",
+      "age_years": "17",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0252",
+      "booked_at": "2026-05-24T15:12:00.000",
+      "age_years": "17",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0236",
+      "booked_at": "2026-05-08T08:01:00.000",
+      "age_years": "70",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0077",
+      "booked_at": "2025-08-12T11:52:00.000",
+      "age_years": "17",
+      "race_code": "U",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0204",
+      "booked_at": "2026-01-05T09:10:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0085",
+      "booked_at": "2025-08-14T19:39:00.000",
+      "age_years": "90",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0138",
+      "booked_at": "2025-05-12T14:13:00.000",
+      "age_years": "90",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0024",
+      "booked_at": "2025-08-15T10:06:00.000",
+      "age_years": "30",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0082",
+      "booked_at": "2025-11-27T22:41:00.000",
+      "age_years": "63",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0060",
+      "booked_at": "2025-03-11T01:20:00.000",
+      "age_years": "16",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0132",
+      "booked_at": "2025-02-11T08:15:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0137",
+      "booked_at": "2025-11-28T00:59:00.000",
+      "age_years": "29",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0007",
+      "booked_at": "2025-04-25T06:39:00.000",
+      "age_years": "29",
+      "race_code": "B",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0202",
+      "booked_at": "2026-02-17T12:13:00.000",
+      "age_years": "33",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0169",
+      "booked_at": "2025-11-06T09:19:00.000",
+      "age_years": "22",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0143",
+      "booked_at": "2025-09-19T07:18:00.000",
+      "age_years": "18",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0174",
+      "booked_at": "2025-03-04T21:32:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0091",
+      "booked_at": "2025-09-08T06:02:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0097",
+      "booked_at": "2025-06-24T07:42:00.000",
+      "age_years": "16",
+      "race_code": "U",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0148",
+      "booked_at": "2025-08-27T19:49:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0056",
+      "booked_at": "2025-05-06T04:24:00.000",
+      "age_years": "50",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0130",
+      "booked_at": "2025-09-28T00:34:00.000",
+      "age_years": "30",
+      "race_code": "B",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0134",
+      "booked_at": "2025-05-03T07:55:00.000",
+      "age_years": "16",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0015",
+      "booked_at": "2025-08-21T09:13:00.000",
+      "age_years": "49",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0096",
+      "booked_at": "2025-06-01T21:49:00.000",
+      "age_years": "29",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0067",
+      "booked_at": "2025-10-04T06:57:00.000",
+      "age_years": "50",
+      "race_code": "B",
+      "sex": "F",
+      "station": "",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0036",
+      "booked_at": "2025-04-05T23:57:00.000",
+      "age_years": "63",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0016",
+      "booked_at": "2025-06-12T02:19:00.000",
+      "age_years": "90",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0170",
+      "booked_at": "2025-08-04T04:44:00.000",
+      "age_years": "41",
+      "race_code": "White",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0008",
+      "booked_at": "2025-09-27T07:46:00.000",
+      "age_years": "12",
+      "race_code": "W",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0051",
+      "booked_at": "2025-01-29T18:58:00.000",
+      "age_years": "90",
+      "race_code": "B",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0122",
+      "booked_at": "2025-10-01T20:52:00.000",
+      "age_years": "12",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0226",
+      "booked_at": "2026-07-07T03:05:00.000",
+      "age_years": "33",
+      "race_code": "W",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0028",
+      "booked_at": "2025-03-24T00:51:00.000",
+      "age_years": "50",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0022",
+      "booked_at": "2025-10-09T07:20:00.000",
+      "age_years": "14",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0257",
+      "booked_at": "2026-04-04T01:10:00.000",
+      "age_years": "25",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0229",
+      "booked_at": "2026-06-21T17:18:00.000",
+      "age_years": "70",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0175",
+      "booked_at": "2025-06-10T06:20:00.000",
+      "age_years": "27",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0191",
+      "booked_at": "2025-05-18T22:36:00.000",
+      "age_years": "30",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0243",
+      "booked_at": "2026-08-07T23:55:00.000",
+      "age_years": "19",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0295",
+      "booked_at": "2026-04-24T13:33:00.000",
+      "age_years": "70",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0296",
+      "booked_at": "2026-04-20T00:35:00.000",
+      "age_years": "45",
+      "race_code": "U",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0017",
+      "booked_at": "2025-10-22T07:06:00.000",
+      "age_years": "30",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0057",
+      "booked_at": "2025-12-19T07:00:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0006",
+      "booked_at": "2025-12-13T21:17:00.000",
+      "age_years": "90",
+      "race_code": "White",
+      "sex": "M",
+      "station": "3rd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0046",
+      "booked_at": "2025-10-23T22:09:00.000",
+      "age_years": "17",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0265",
+      "booked_at": "2026-04-18T23:08:00.000",
+      "age_years": "13",
+      "race_code": "B",
+      "sex": "M",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0179",
+      "booked_at": "2025-06-24T23:20:00.000",
+      "age_years": "27",
+      "race_code": "W",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0298",
+      "booked_at": "2026-04-03T00:19:00.000",
+      "age_years": "25",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0070",
+      "booked_at": "2025-03-04T17:57:00.000",
+      "age_years": "41",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0099",
+      "booked_at": "2025-12-26T18:27:00.000",
+      "age_years": "29",
+      "race_code": "W",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0025",
+      "booked_at": "2025-12-01T17:45:00.000",
+      "age_years": "49",
+      "race_code": "W",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0270",
+      "booked_at": "2026-07-29T00:04:00.000",
+      "age_years": "45",
+      "race_code": "Blk",
+      "sex": "M",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0014",
+      "booked_at": "2025-02-07T13:39:00.000",
+      "age_years": "12",
+      "race_code": "White",
+      "sex": "M",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0246",
+      "booked_at": "2026-08-13T21:07:00.000",
+      "age_years": "17",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0245",
+      "booked_at": "2026-03-25T14:22:00.000",
+      "age_years": "19",
+      "race_code": "White",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0220",
+      "booked_at": "2026-02-02T17:32:00.000",
+      "age_years": "25",
+      "race_code": "W",
+      "sex": "F",
+      "station": "3D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0011",
+      "booked_at": "2025-02-21T01:54:00.000",
+      "age_years": "63",
+      "race_code": "U",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0039",
+      "booked_at": "2025-09-28T07:52:00.000",
+      "age_years": "17",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "1D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0083",
+      "booked_at": "2025-09-21T07:42:00.000",
+      "age_years": "27",
+      "race_code": "B",
+      "sex": "F",
+      "station": "2D",
+      "data_class": "SYNTHETIC"
+    },
+    {
+      "case_no": "FIXTURE-C-0292",
+      "booked_at": "2026-07-30T19:21:00.000",
+      "age_years": "45",
+      "race_code": "Blk",
+      "sex": "F",
+      "station": "2nd",
+      "data_class": "SYNTHETIC"
+    }
+  ]
+}

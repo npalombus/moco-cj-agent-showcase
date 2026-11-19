@@ -1,0 +1,656 @@
+{
+ "trend_all": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 8.92783757626563,
+    "low": 6.816687593984216,
+    "high": 11.080712820283534,
+    "clear": true
+   }
+  ]
+ },
+ "trend_d1": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 18.81365041632086,
+    "low": 13.82386516190277,
+    "high": 24.022176765585755,
+    "clear": true
+   }
+  ]
+ },
+ "trend_d2": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": -1.6420004318705383,
+    "low": -6.719132270416861,
+    "high": 3.7114717574185274,
+    "clear": false
+   }
+  ]
+ },
+ "trend_d3": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": -8.83505555817804,
+    "low": -12.969106136584074,
+    "high": -4.50463362902338,
+    "clear": true
+   }
+  ]
+ },
+ "trend_all_p6": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 9.327936021401895,
+    "low": 7.580815077916325,
+    "high": 11.10343034715784,
+    "clear": true
+   }
+  ]
+ },
+ "trend_d4_p6": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": -5.485347857829659,
+    "low": -10.048715256297246,
+    "high": -0.6904737935847893,
+    "clear": true
+   }
+  ]
+ },
+ "trend_d5_p6": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 8.192162019067384,
+    "low": 2.716253928339385,
+    "high": 13.959996346114512,
+    "clear": true
+   }
+  ]
+ },
+ "trend_fallback": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 5.977140671108949,
+    "low": 5.793254346715826,
+    "high": 6.161346620609631,
+    "clear": true
+   }
+  ]
+ },
+ "trend_q1": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": -0.0295552507521446,
+    "low": -3.641014748242366,
+    "high": 3.7172589276527335,
+    "clear": false
+   }
+  ]
+ },
+ "trend_r100": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 0.28110265242193844,
+    "low": -0.271375403090246,
+    "high": 0.836641333737953,
+    "clear": false
+   }
+  ]
+ },
+ "trend_24": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 9.9058478101006,
+    "low": 2.499583166880681,
+    "high": 17.84726346828711,
+    "clear": true
+   }
+  ]
+ },
+ "trend_23": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 8.616667999355943,
+    "low": 1.1189561865860176,
+    "high": 16.67031595454038,
+    "clear": true
+   }
+  ]
+ },
+ "trend_coverage": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 8.92783757626563,
+    "low": 6.816687593984216,
+    "high": 11.080712820283534,
+    "clear": true
+   }
+  ]
+ },
+ "trend_mid": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 8.87199685079274,
+    "low": 6.645791160796111,
+    "high": 11.144674058513914,
+    "clear": true
+   }
+  ]
+ },
+ "trend_sep": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 9.914138321452937,
+    "low": 5.42934990410795,
+    "high": 14.589702145898965,
+    "clear": true
+   }
+  ]
+ },
+ "trend_female": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": 9.22667641694288,
+    "low": 5.930901291985147,
+    "high": 12.624991344185045,
+    "clear": true
+   }
+  ]
+ },
+ "trend_r099": {
+  "kind": "trend",
+  "estimates": [
+   {
+    "name": "trend",
+    "estimate": -1.7217781462680604,
+    "low": -5.5946860825754285,
+    "high": 2.3100129636732802,
+    "clear": false
+   }
+  ]
+ },
+ "compare_school": {
+  "kind": "trend_compare",
+  "estimates": [
+   {
+    "name": "difference",
+    "estimate": -15.16415940612017,
+    "low": -18.46139781140049,
+    "high": -11.73358806638375,
+    "clear": true
+   }
+  ],
+  "own": {
+   "a": {
+    "name": "trend_a",
+    "estimate": 24.128204713757672,
+    "low": 20.060321716251607,
+    "high": 28.333915695104306,
+    "clear": true
+   },
+   "b": {
+    "name": "trend_b",
+    "estimate": 5.233027086022268,
+    "low": 3.07096249529617,
+    "high": 7.440444152181835,
+    "clear": true
+   }
+  }
+ },
+ "compare_school_rev": {
+  "kind": "trend_compare",
+  "estimates": [
+   {
+    "name": "difference",
+    "estimate": 17.874708731466615,
+    "low": 13.293378319088722,
+    "high": 22.641297882340815,
+    "clear": true
+   }
+  ],
+  "own": {
+   "a": {
+    "name": "trend_a",
+    "estimate": 5.233027086022268,
+    "low": 3.07096249529617,
+    "high": 7.440444152181835,
+    "clear": true
+   },
+   "b": {
+    "name": "trend_b",
+    "estimate": 24.128204713757672,
+    "low": 20.060321716251607,
+    "high": 28.333915695104306,
+    "clear": true
+   }
+  }
+ },
+ "compare_gender": {
+  "kind": "trend_compare",
+  "estimates": [
+   {
+    "name": "difference",
+    "estimate": 0.25413407411343236,
+    "low": -3.2896157249397207,
+    "high": 3.927737174158241,
+    "clear": false
+   }
+  ],
+  "own": {
+   "a": {
+    "name": "trend_a",
+    "estimate": 9.22667641694288,
+    "low": 5.930901291985147,
+    "high": 12.624991344185045,
+    "clear": true
+   },
+   "b": {
+    "name": "trend_b",
+    "estimate": 8.983929683007318,
+    "low": 6.80096484497239,
+    "high": 11.211513364055614,
+    "clear": true
+   }
+  }
+ },
+ "compare_weapon": {
+  "kind": "trend_compare",
+  "estimates": [
+   {
+    "name": "difference",
+    "estimate": -0.7277120301678819,
+    "low": -4.51254175046124,
+    "high": 3.2071367216738755,
+    "clear": false
+   }
+  ],
+  "own": {
+   "a": {
+    "name": "trend_a",
+    "estimate": 9.395643539564835,
+    "low": 5.99194354855912,
+    "high": 12.908645928855789,
+    "clear": true
+   },
+   "b": {
+    "name": "trend_b",
+    "estimate": 8.882898992999543,
+    "low": 6.5307254409388005,
+    "high": 11.28700798806146,
+    "clear": true
+   }
+  }
+ },
+ "ba_d6": {
+  "kind": "before_after",
+  "estimates": [
+   {
+    "name": "step",
+    "estimate": 40.55693132171445,
+    "low": 3.765492781069546,
+    "high": 90.39326478466243,
+    "clear": true
+   },
+   {
+    "name": "bend",
+    "estimate": 39.66127170300042,
+    "low": 14.022031864483232,
+    "high": 71.06580627226144,
+    "clear": true
+   }
+  ]
+ },
+ "ba_d7": {
+  "kind": "before_after",
+  "estimates": [
+   {
+    "name": "step",
+    "estimate": -52.3128990188644,
+    "low": -64.7547955025204,
+    "high": -35.4788933017074,
+    "clear": true
+   },
+   {
+    "name": "bend",
+    "estimate": -24.642181542950603,
+    "low": -38.94139010624398,
+    "high": -6.994266451743414,
+    "clear": true
+   }
+  ]
+ },
+ "ba_d2": {
+  "kind": "before_after",
+  "estimates": [
+   {
+    "name": "step",
+    "estimate": 24.811301902164807,
+    "low": -12.572682209294372,
+    "high": 78.18070456885735,
+    "clear": false
+   },
+   {
+    "name": "bend",
+    "estimate": 30.710441857984772,
+    "low": -6.909092143520146,
+    "high": 83.53263497064877,
+    "clear": false
+   }
+  ]
+ },
+ "yn_main": {
+  "kind": "yes_no",
+  "estimates": [
+   {
+    "name": "odds1",
+    "estimate": 3.1575047820343283,
+    "low": 2.8240518538458623,
+    "high": 3.5303305196016446,
+    "clear": true
+   },
+   {
+    "name": "odds2",
+    "estimate": 0.7004517504333932,
+    "low": 0.6203389855262982,
+    "high": 0.790910560407468,
+    "clear": true
+   },
+   {
+    "name": "odds3",
+    "estimate": 1.0058287481389574,
+    "low": 0.9037198319536041,
+    "high": 1.1194746809924176,
+    "clear": false
+   }
+  ]
+ },
+ "yn_nocontrol": {
+  "kind": "yes_no",
+  "estimates": [
+   {
+    "name": "odds1",
+    "estimate": 3.1288681157379954,
+    "low": 2.8007604520258718,
+    "high": 3.4954134255218348,
+    "clear": true
+   },
+   {
+    "name": "odds2",
+    "estimate": 0.6990346042875768,
+    "low": 0.6194991519531075,
+    "high": 0.788781350952482,
+    "clear": true
+   },
+   {
+    "name": "odds3",
+    "estimate": 1.00690630699991,
+    "low": 0.9052437905725286,
+    "high": 1.1199859326678983,
+    "clear": false
+   }
+  ]
+ },
+ "yn_u18": {
+  "kind": "yes_no",
+  "estimates": [
+   {
+    "name": "odds1",
+    "estimate": 2.060327171365897,
+    "low": 1.737455225858888,
+    "high": 2.4431985296024905,
+    "clear": true
+   },
+   {
+    "name": "odds2",
+    "estimate": 1.0275596015434074,
+    "low": 0.9153855892705852,
+    "high": 1.1534797435094115,
+    "clear": false
+   }
+  ]
+ },
+ "yn_plain": {
+  "kind": "yes_no",
+  "estimates": [
+   {
+    "name": "odds1",
+    "estimate": 3.154228622342821,
+    "low": 2.823701541493535,
+    "high": 3.523445398108293,
+    "clear": true
+   },
+   {
+    "name": "odds2",
+    "estimate": 1.0091428016658666,
+    "low": 0.9073643364977149,
+    "high": 1.1223376908164377,
+    "clear": false
+   }
+  ]
+ },
+ "yn_k110": {
+  "kind": "yes_no",
+  "estimates": [
+   {
+    "name": "odds1",
+    "estimate": 1.0320450776277887,
+    "low": 0.3751971887625289,
+    "high": 2.838819357279049,
+    "clear": false
+   },
+   {
+    "name": "odds2",
+    "estimate": 0.9642089136843441,
+    "low": 0.6320811672735571,
+    "high": 1.4708535507212488,
+    "clear": false
+   }
+  ]
+ },
+ "sh_school": {
+  "kind": "shares",
+  "estimates": [
+   {
+    "name": "sharetrend",
+    "estimate": 1.1752700500060809,
+    "low": 1.1324305867918507,
+    "high": 1.2197301155158413,
+    "clear": true
+   }
+  ],
+  "years": {
+   "2021": {
+    "share": 16.26129256428075,
+    "low": 14.44494688667725,
+    "high": 18.257291878151232
+   },
+   "2022": {
+    "share": 18.13570069752695,
+    "low": 16.312145120317233,
+    "high": 20.114117339221128
+   },
+   "2023": {
+    "share": 22.081218274111674,
+    "low": 20.102598193716286,
+    "high": 24.195610018699014
+   },
+   "2024": {
+    "share": 23.399677245831093,
+    "low": 21.531186614187963,
+    "high": 25.377875599086465
+   },
+   "2025": {
+    "share": 27.107843137254903,
+    "low": 25.223253301098396,
+    "high": 29.078485909572656
+   }
+  }
+ },
+ "sh_noschool": {
+  "kind": "shares",
+  "estimates": [
+   {
+    "name": "sharetrend",
+    "estimate": 0.850868274908064,
+    "low": 0.8198534965064684,
+    "high": 0.8830563318080731,
+    "clear": true
+   }
+  ],
+  "years": {
+   "2021": {
+    "share": 83.73870743571925,
+    "low": 81.74270812184878,
+    "high": 85.55505311332276
+   },
+   "2022": {
+    "share": 81.86429930247306,
+    "low": 79.88588266077889,
+    "high": 83.68785487968276
+   },
+   "2023": {
+    "share": 77.91878172588832,
+    "low": 75.80438998130099,
+    "high": 79.89740180628372
+   },
+   "2024": {
+    "share": 76.60032275416891,
+    "low": 74.62212440091353,
+    "high": 78.46881338581204
+   },
+   "2025": {
+    "share": 72.8921568627451,
+    "low": 70.92151409042735,
+    "high": 74.7767466989016
+   }
+  }
+ },
+ "sh_shift": {
+  "kind": "shares",
+  "estimates": [
+   {
+    "name": "sharetrend",
+    "estimate": 0.9975264113888231,
+    "low": 0.9680611545915042,
+    "high": 1.0278885137562943,
+    "clear": false
+   }
+  ],
+  "years": {
+   "2021": {
+    "share": 50.382209867963866,
+    "low": 47.801332273998796,
+    "high": 52.9610522508075
+   },
+   "2022": {
+    "share": 50.285351934051995,
+    "low": 47.81994252418322,
+    "high": 52.74937452841796
+   },
+   "2023": {
+    "share": 50.253807106598984,
+    "low": 47.787685665862064,
+    "high": 52.71869425947959
+   },
+   "2024": {
+    "share": 50.24206562668101,
+    "low": 47.97104780799321,
+    "high": 52.51208509400933
+   },
+   "2025": {
+    "share": 50.09803921568628,
+    "low": 47.93018247186653,
+    "high": 52.26552742444751
+   }
+  }
+ },
+ "sh_s100": {
+  "kind": "shares",
+  "estimates": [
+   {
+    "name": "sharetrend",
+    "estimate": 0.9999999999991851,
+    "low": 0.8811608155525091,
+    "high": 1.1348666240581136,
+    "clear": false
+   }
+  ],
+  "years": {
+   "2021": {
+    "share": 20.0,
+    "low": 14.3840815441767,
+    "high": 27.114133140953168
+   },
+   "2022": {
+    "share": 20.0,
+    "low": 14.3840815441767,
+    "high": 27.114133140953168
+   },
+   "2023": {
+    "share": 20.0,
+    "low": 13.336693289714837,
+    "high": 28.882916636424948
+   },
+   "2024": {
+    "share": 20.0,
+    "low": 14.3840815441767,
+    "high": 27.114133140953168
+   },
+   "2025": {
+    "share": 20.0,
+    "low": 14.3840815441767,
+    "high": 27.114133140953168
+   }
+  }
+ },
+ "timing": {
+  "kind": "timing",
+  "estimates": []
+ },
+ "ages": {
+  "kind": "distribution",
+  "estimates": []
+ },
+ "ages_gender": {
+  "kind": "distribution",
+  "estimates": []
+ },
+ "ages_d30": {
+  "kind": "distribution",
+  "estimates": []
+ }
+}

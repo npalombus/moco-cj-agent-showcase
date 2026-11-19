@@ -1,0 +1,11 @@
+{
+  "note": "SYNTHETIC: made up by hand for the stage 3 round 8 tests (briefs/S3-R8-A-tests.md). Not county data; no row is a real record. The rows of tests/s3/fixtures/r8_calls_like.json.",
+  "rows": [
+    {"id": "FIXTURE-R8-0001", "called_at": "2025-02-03T10:00:00.000", "race": "B", "zone": "E", "data_class": "SYNTHETIC"},
+    {"id": "FIXTURE-R8-0002", "called_at": "2025-03-14T11:30:00.000", "race": "BLK", "zone": "W", "data_class": "SYNTHETIC"},
+    {"id": "FIXTURE-R8-0003", "called_at": "2025-05-20T16:45:00.000", "race": "W", "zone": "E", "data_class": "SYNTHETIC"},
+    {"id": "FIXTURE-R8-0004", "called_at": "2025-07-08T09:15:00.000", "race": "two in one box", "zone": "W", "data_class": "SYNTHETIC"},
+    {"id": "FIXTURE-R8-0005", "called_at": "2026-01-12T13:00:00.000", "race": "W", "zone": "W", "data_class": "SYNTHETIC"},
+    {"id": "FIXTURE-R8-0006", "called_at": "2026-08-02T18:20:00.000", "zone": "E", "data_class": "SYNTHETIC"}
+  ]
+}

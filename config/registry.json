@@ -1,0 +1,80 @@
+{
+  "registry_version": 2,
+  "note": "Approved sources, metric definitions and skills. The context sent to the model is built from this file. Changing anything here needs Nino's recorded approval (docs/DECISIONS.md). No session may edit it.",
+  "approved_sources": [
+    {
+      "id": "SYNTHETIC:arrests_v1",
+      "data_class": "SYNTHETIC",
+      "description": "Made-up arrest records for testing. Describes no real person or event and says nothing about Montgomery County.",
+      "path": "data/synthetic/SYNTHETIC_arrests_v1.csv",
+      "coverage": {
+        "start": "2024-01-01",
+        "end": "2025-12-31"
+      },
+      "row_meaning": "one made-up arrest record",
+      "fields": [
+        "arrest_id",
+        "arrest_date",
+        "age_group",
+        "data_class"
+      ],
+      "age_groups": {
+        "under_18": "people under 18",
+        "18_25": "ages 18 to 25",
+        "26_40": "ages 26 to 40",
+        "41_plus": "ages 41 and over"
+      },
+      "source_url": null,
+      "approved_by": "Nino",
+      "approved_on": "2026-11-09",
+      "approval_record": "D-019 (stage 1 plan)"
+    }
+  ],
+  "metric_definitions": [
+    {
+      "name": "arrest_count",
+      "version": 1,
+      "unit": "arrest records",
+      "meaning": "the number of rows (arrest records) in the period",
+      "is_not": [
+        "people",
+        "charges",
+        "cases",
+        "convictions",
+        "sentences",
+        "jail population",
+        "a rate"
+      ],
+      "approved_by": "Nino",
+      "approved_on": "2026-11-09",
+      "approval_record": "D-019 (stage 1 plan)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "arrest_count_trend",
+      "version": "arrest_count_trend@0.1.0",
+      "source_id": "SYNTHETIC:arrests_v1",
+      "metric": "arrest_count",
+      "description": "Count arrest records per calendar month of one year, for all ages or one age group.",
+      "arguments": {
+        "year": "whole number, required",
+        "age_group": "one of under_18, 18_25, 26_40, 41_plus, or null for all ages"
+      }
+    },
+    {
+      "name": "compare_counts",
+      "version": "compare_counts@0.1.0",
+      "source_id": "SYNTHETIC:arrests_v1",
+      "metric": "arrest_count",
+      "description": "Compare two to eight counts of arrest records: which is highest, which is lowest, and the difference between the highest and the lowest. No rate and no percentage.",
+      "arguments": {
+        "result_ids": "two to eight counts made in the same turn",
+        "field": "total"
+      },
+      "approved_by": "Nino",
+      "approved_on": "2026-11-10",
+      "approval_record": "D-031 (agent loop plan; comparing counts)"
+    }
+  ]
+}

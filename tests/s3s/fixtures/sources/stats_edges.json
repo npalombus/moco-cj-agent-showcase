@@ -1,0 +1,161 @@
+{
+  "id": "FIXTURE:stats_edges",
+  "data_class": "COUNTY_OPEN_DATA",
+  "fixture_note": "SYNTHETIC: made up for the stage 3 Part S tests by tests/s3s/fixtures/make_fixtures.py. Not county data; no row is a real record. data_class says COUNTY_OPEN_DATA only so that county mode reads it.",
+  "title": "SYNTHETIC fixture edge cases for statistics (made up for tests)",
+  "publisher": "SYNTHETIC fixture publisher (made up for tests)",
+  "address": "https://fixture.invalid/resource/stats-edges.json",
+  "page": "https://fixture.invalid/d/stats-edges",
+  "row_meaning": "one made-up arrest",
+  "unit": {
+    "one": "arrest record",
+    "many": "arrest records"
+  },
+  "is_not": [
+    "people",
+    "charges",
+    "cases",
+    "convictions",
+    "sentences",
+    "a rate"
+  ],
+  "time_field": "event_date_time",
+  "coverage_start": "2021-01-01",
+  "floor": 10,
+  "fields": [
+    {
+      "name": "id",
+      "kind": "key"
+    },
+    {
+      "name": "age",
+      "kind": "age",
+      "usable": [
+        10,
+        98
+      ],
+      "bands": [
+        [
+          10,
+          17
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          25,
+          34
+        ],
+        [
+          35,
+          44
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          55,
+          98
+        ]
+      ],
+      "sensitive": false
+    },
+    {
+      "name": "gender",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "gender",
+      "wording": "recorded as {labels}",
+      "values": {
+        "Female": "female",
+        "Male": "male"
+      }
+    },
+    {
+      "name": "zone",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "zone",
+      "wording": "in {labels}",
+      "values": {
+        "1": "zone 1",
+        "2": "zone 2",
+        "3": "zone 3",
+        "4": "zone 4",
+        "5": "zone 5",
+        "6": "zone 6",
+        "7": "zone 7",
+        "8": "zone 8",
+        "9": "zone 9"
+      }
+    },
+    {
+      "name": "shift",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "shift",
+      "wording": "on {labels}",
+      "values": {
+        "A": "shift A",
+        "B": "shift B"
+      }
+    },
+    {
+      "name": "adjacent_to_school",
+      "kind": "flag",
+      "dimension": "distance from a school",
+      "yes_raw": "1",
+      "no_raw": "0",
+      "yes": "within 500 feet of a school",
+      "no": "not within 500 feet of a school"
+    },
+    {
+      "name": "weapon",
+      "kind": "flag",
+      "dimension": "weapon",
+      "yes_raw": "1",
+      "no_raw": "0",
+      "yes": "with a weapon recorded",
+      "no": "with no weapon recorded"
+    },
+    {
+      "name": "batch",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "batch",
+      "wording": "in {labels}",
+      "values": {
+        "P": "batch P",
+        "Q1": "batch Q1",
+        "Q2": "batch Q2",
+        "R099": "batch R099",
+        "R100": "batch R100",
+        "Y099": "batch Y099",
+        "Y100": "batch Y100",
+        "N099": "batch N099",
+        "N100": "batch N100",
+        "K100": "batch K100",
+        "K109": "batch K109",
+        "K110": "batch K110",
+        "S099": "batch S099",
+        "S100": "batch S100",
+        "D29": "batch D29",
+        "D30": "batch D30",
+        "anchor": "batch anchor"
+      }
+    }
+  ],
+  "notices": [
+    "SYNTHETIC fixture notice: these records are made up for tests and come from no county.",
+    "SYNTHETIC fixture notice two: THE FIXTURE MAKES NO PROMISE ABOUT ANY OF THIS DATA."
+  ],
+  "approved_by": "nobody (test fixture)",
+  "approved_on": "2026-11-12",
+  "approval_record": "none: a SYNTHETIC test fixture"
+}

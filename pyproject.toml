@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core>=3.9,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "moco_agent"
+version = "0.1.0"
+description = "Montgomery County criminal justice data agent on SYNTHETIC arrest data: the NVIDIA model chooses one tool, Python checks it, counts the rows and writes every reply."
+requires-python = ">=3.12"
+# The same packages as requirements.txt, at the same versions.
+dependencies = [
+    "pandas==3.1.1",
+    "matplotlib==3.11.2",
+    "pydantic==2.14.3",
+    "pytest==9.2.0",
+    "openai==3.49.0",
+    "slack_bolt==1.30.0",
+]

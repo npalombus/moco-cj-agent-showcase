@@ -1,0 +1,716 @@
+{
+ "note": "SYNTHETIC: made up for the Part S2 tests by tests/s3s2/fixtures/make_fixtures.py. Not Census data and not county data: every figure is invented. The label texts are the Census's own wording.",
+ "year": 2023,
+ "table": "B03002",
+ "variables": {
+  "B03002_001E": {
+   "label": "Estimate!!Total:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_001M,B03002_001MA,B03002_001EA"
+  },
+  "B03002_001M": {
+   "label": "Margin of Error!!Total:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_001EA": {
+   "label": "Annotation of Estimate!!Total:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_001MA": {
+   "label": "Annotation of Margin of Error!!Total:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_002E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_002M,B03002_002MA,B03002_002EA"
+  },
+  "B03002_002M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_002EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_002MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_003E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_003M,B03002_003MA,B03002_003EA"
+  },
+  "B03002_003M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_003EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_003MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_004E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_004M,B03002_004MA,B03002_004EA"
+  },
+  "B03002_004M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_004EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_004MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_005E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_005M,B03002_005MA,B03002_005EA"
+  },
+  "B03002_005M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_005EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_005MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_006E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_006M,B03002_006MA,B03002_006EA"
+  },
+  "B03002_006M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_006EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_006MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_007E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_007M,B03002_007MA,B03002_007EA"
+  },
+  "B03002_007M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_007EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_007MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_008E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_008M,B03002_008MA,B03002_008EA"
+  },
+  "B03002_008M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_008EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_008MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_009E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_009M,B03002_009MA,B03002_009EA"
+  },
+  "B03002_009M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_009EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_009MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_010E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_010M,B03002_010MA,B03002_010EA"
+  },
+  "B03002_010M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_010EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_010MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_011E": {
+   "label": "Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_011M,B03002_011MA,B03002_011EA"
+  },
+  "B03002_011M": {
+   "label": "Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_011EA": {
+   "label": "Annotation of Estimate!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_011MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Not Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_012E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_012M,B03002_012MA,B03002_012EA"
+  },
+  "B03002_012M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_012EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_012MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_013E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_013M,B03002_013MA,B03002_013EA"
+  },
+  "B03002_013M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_013EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_013MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!White alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_014E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_014M,B03002_014MA,B03002_014EA"
+  },
+  "B03002_014M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_014EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_014MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Black or African American alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_015E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_015M,B03002_015MA,B03002_015EA"
+  },
+  "B03002_015M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_015EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_015MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!American Indian and Alaska Native alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_016E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_016M,B03002_016MA,B03002_016EA"
+  },
+  "B03002_016M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_016EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_016MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Asian alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_017E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_017M,B03002_017MA,B03002_017EA"
+  },
+  "B03002_017M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_017EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_017MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Native Hawaiian and Other Pacific Islander alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_018E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_018M,B03002_018MA,B03002_018EA"
+  },
+  "B03002_018M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_018EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_018MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Some other race alone",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_019E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_019M,B03002_019MA,B03002_019EA"
+  },
+  "B03002_019M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_019EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_019MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_020E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_020M,B03002_020MA,B03002_020EA"
+  },
+  "B03002_020M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_020EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_020MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races including Some other race",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_021E": {
+   "label": "Estimate!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true,
+   "attributes": "B03002_021M,B03002_021MA,B03002_021EA"
+  },
+  "B03002_021M": {
+   "label": "Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "int",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_021EA": {
+   "label": "Annotation of Estimate!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "B03002_021MA": {
+   "label": "Annotation of Margin of Error!!Total:!!Hispanic or Latino:!!Two or more races:!!Two races excluding Some other race, and three or more races",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "GEO_ID": {
+   "label": "Geography",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  },
+  "NAME": {
+   "label": "Geographic Area Name",
+   "concept": "Hispanic or Latino Origin by Race",
+   "predicateType": "string",
+   "group": "B03002",
+   "limit": 0,
+   "predicateOnly": true
+  }
+ }
+}

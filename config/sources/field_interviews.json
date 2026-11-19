@@ -1,0 +1,134 @@
+{
+  "id": "MOCO:field_interviews",
+  "data_class": "COUNTY_OPEN_DATA",
+  "title": "Montgomery County Police field interviews",
+  "publisher": "Montgomery County, Maryland (dataMontgomery)",
+  "address": "https://data.montgomerycountymd.gov/resource/cw86-y2m7.json",
+  "page": "https://data.montgomerycountymd.gov/d/cw86-y2m7",
+  "row_meaning": "one field interview record",
+  "unit": {
+    "one": "field interview record",
+    "many": "field interview records"
+  },
+  "is_not": [
+    "people",
+    "charges",
+    "cases",
+    "convictions",
+    "sentences",
+    "a rate"
+  ],
+  "time_field": "incident_date",
+  "coverage_start": "2021-01-01",
+  "floor": 10,
+  "fields": [
+    {
+      "name": "id",
+      "kind": "key"
+    },
+    {
+      "name": "age",
+      "kind": "age",
+      "usable": [
+        10,
+        98
+      ],
+      "bands": [
+        [
+          10,
+          17
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          25,
+          34
+        ],
+        [
+          35,
+          44
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          55,
+          98
+        ]
+      ],
+      "sensitive": false
+    },
+    {
+      "name": "gender",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "gender",
+      "wording": "recorded as {labels}",
+      "values": {
+        "M": "male",
+        "F": "female",
+        "U": "gender unknown"
+      }
+    },
+    {
+      "name": "race",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "race",
+      "wording": "recorded as {labels}",
+      "values": {
+        "BLACK": "Black",
+        "black": "Black",
+        "HISPANIC": "Hispanic",
+        "hispanic": "Hispanic",
+        "WHITE": "White",
+        "white": "White",
+        "ASIAN": "Asian",
+        "asian": "Asian",
+        "OTHER": "another race",
+        "UNKNOWN": "race unknown"
+      }
+    },
+    {
+      "name": "district",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "district",
+      "meaning": "the police district where it happened (the county calls the field \"District of occurrence\")",
+      "notes": [
+        "The districts are police districts. Montgomery County Police names six of them by their stations: district 1 is Rockville, district 2 is Bethesda, district 3 is Silver Spring, district 4 is Wheaton, district 5 is Germantown and district 6 is Montgomery Village."
+      ],
+      "wording": "in {labels}",
+      "values": {
+        "3": "district 3",
+        "4": "district 4",
+        "2": "district 2",
+        "1": "district 1",
+        "6": "district 6",
+        "5": "district 5"
+      }
+    }
+  ],
+  "not_offered": {
+    "division": "left for a later approval",
+    "bureau": "left for a later approval"
+  },
+  "notes": [
+    "These are Montgomery County, Maryland's own police records, published by the county. They are not statewide Maryland records."
+  ],
+  "notices": [
+    "The data made available here has been modified for use from its original source, which is Montgomery County, Maryland (\"the County\"). THE COUNTY MAKES NO REPRESENTATIONS OR WARRANTIES AS TO THE COMPLETENESS, ACCURACY, OR TIMELINESS OF ANY DATA. THE COUNTY EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. THE COUNTY MAKES NO REPRESENTATION OR WARRANTY AS TO THE WEBISTE OR APPLICATION USING DATA DRAWN FROM DATA.MONTGOMERYCOUNTYMD.GOV OR FOR THE USEFULNESS OR INTEGRITY OF THE WEB SITE OR APPLICATION. The data is subject to change and possible deletion, temporarily or permanently. It is understood that the information contained in the web feed is being used at one's own risk.",
+    "This agent is a university course project. It is not a Montgomery County service, and the County has not taken part in, sponsored or endorsed it."
+  ],
+  "checked": "Values read from the county's service on 2026-11-12 (852 records).",
+  "approved_by": "Nino",
+  "approved_on": "2026-11-11",
+  "approval_record": "D-040",
+  "note": "517 of 852 records have no district. Hispanic is recorded as a race value."
+}

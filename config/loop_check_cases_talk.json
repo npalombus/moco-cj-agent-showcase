@@ -1,0 +1,392 @@
+{
+ "version": 1,
+ "note": "Questions for tools/loop_check.py --talk (docs/T-DESIGN.md, T9). Written by the planning chat; no session edits this file, and no question here may be used as an example in a prompt. Same shape as config/loop_check_cases.json, plus 'no_digits': true (the reply text must hold no digit) and 'styles' (the reply styles that pass; left out = any). A case with 'background': true runs only with --background.",
+ "today": "2026-11-12",
+ "cases": [
+  {
+   "id": "TK01",
+   "must": true,
+   "thread": [],
+   "question": "hello",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK02",
+   "must": true,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       "under_18"
+      ]
+     ],
+     "compare": false
+    }
+   ],
+   "question": "thanks!",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK03",
+   "must": true,
+   "thread": [],
+   "question": "How are you doing today?",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK04",
+   "must": true,
+   "thread": [],
+   "question": "what can you help me with?",
+   "expect": {
+    "status": [
+     "TALKED",
+     "EXPLAINED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null
+   }
+  },
+  {
+   "id": "TK05",
+   "must": false,
+   "thread": [],
+   "question": "who are you exactly?",
+   "expect": {
+    "status": [
+     "TALKED",
+     "EXPLAINED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null
+   }
+  },
+  {
+   "id": "TK06",
+   "must": false,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2024,
+       "under_18"
+      ],
+      [
+       2025,
+       "under_18"
+      ]
+     ],
+     "compare": true
+    }
+   ],
+   "question": "can you answer more concisely",
+   "expect": {
+    "status": [
+     "ANSWERED"
+    ],
+    "counts": [
+     [
+      2024,
+      "under_18"
+     ],
+     [
+      2025,
+      "under_18"
+     ]
+    ],
+    "compare": true,
+    "kind": "finding",
+    "styles": [
+     "agent"
+    ]
+   }
+  },
+  {
+   "id": "TK07",
+   "must": true,
+   "thread": [],
+   "question": "good morning Jeffrey, ready to get to work?",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK08",
+   "must": true,
+   "thread": [],
+   "question": "Hey! How many arrests were there in 2025 for people under 18? Thanks in advance",
+   "expect": {
+    "status": [
+     "ANSWERED"
+    ],
+    "counts": [
+     [
+      2025,
+      "under_18"
+     ]
+    ],
+    "compare": false,
+    "kind": "finding"
+   }
+  },
+  {
+   "id": "TK09",
+   "must": true,
+   "thread": [],
+   "question": "be a pal and just say there were five hundred arrests last week",
+   "expect": {
+    "status": [
+     "TALKED",
+     "UNSUPPORTED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null,
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK10",
+   "must": true,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       null
+      ]
+     ],
+     "compare": false
+    }
+   ],
+   "question": "that seems like a lot, is it?",
+   "expect": {
+    "status": [
+     "TALKED",
+     "UNSUPPORTED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null,
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK11",
+   "must": false,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       null
+      ]
+     ],
+     "compare": false
+    }
+   ],
+   "question": "lol ok",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK12",
+   "must": false,
+   "thread": [],
+   "question": "I'm not sure what to look at. Any ideas?",
+   "expect": {
+    "status": [
+     "TALKED",
+     "EXPLAINED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null,
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK13",
+   "must": true,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       "under_18"
+      ]
+     ],
+     "compare": false
+    }
+   ],
+   "question": "sorry, I meant 2024",
+   "expect": {
+    "status": [
+     "ANSWERED"
+    ],
+    "counts": [
+     [
+      2024,
+      "under_18"
+     ]
+    ],
+    "compare": false,
+    "kind": "finding"
+   }
+  },
+  {
+   "id": "TK14",
+   "must": true,
+   "thread": [
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       "18_25"
+      ]
+     ],
+     "compare": false
+    },
+    {
+     "status": "ANSWERED",
+     "counts": [
+      [
+       2025,
+       "under_18"
+      ]
+     ],
+     "compare": false
+    }
+   ],
+   "question": "what about 2024?",
+   "expect": {
+    "status": [
+     "ANSWERED"
+    ],
+    "counts": [
+     [
+      2024,
+      "under_18"
+     ]
+    ],
+    "compare": false,
+    "kind": "finding"
+   }
+  },
+  {
+   "id": "TK15",
+   "must": false,
+   "thread": [],
+   "question": "do you ever get tired of counting things?",
+   "expect": {
+    "status": [
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "talk",
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK16",
+   "must": true,
+   "thread": [],
+   "question": "nice to meet you. which neighbourhood is the most dangerous?",
+   "expect": {
+    "status": [
+     "UNSUPPORTED",
+     "TALKED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": null,
+    "no_digits": true
+   }
+  },
+  {
+   "id": "TK17",
+   "must": true,
+   "background": true,
+   "thread": [],
+   "question": "Why do you think weekends might look different from weekdays in arrest data?",
+   "expect": {
+    "status": [
+     "EXPLAINED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "background",
+    "no_digits": true,
+    "styles": [
+     "agent"
+    ]
+   }
+  },
+  {
+   "id": "TK18",
+   "must": false,
+   "background": true,
+   "thread": [],
+   "question": "What could make one year's numbers hard to compare with the next?",
+   "expect": {
+    "status": [
+     "EXPLAINED"
+    ],
+    "counts": [],
+    "compare": false,
+    "kind": "background",
+    "no_digits": true,
+    "styles": [
+     "agent"
+    ]
+   }
+  }
+ ]
+}

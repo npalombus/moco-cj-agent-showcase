@@ -1,0 +1,62 @@
+{
+  "id": "FIXTURE:calls_like",
+  "data_class": "COUNTY_OPEN_DATA",
+  "fixture_note": "SYNTHETIC: made up by hand for the stage 3 round 8 tests (briefs/S3-R8-A-tests.md, PROOF GAP 4): a source with an interpreted (free-text) field. Not county data; no row is a real record. data_class says COUNTY_OPEN_DATA only so that county mode reads it.",
+  "title": "SYNTHETIC fixture calls (made up for tests)",
+  "publisher": "SYNTHETIC fixture publisher (made up for tests)",
+  "address": "https://fixture.invalid/resource/calls-like.json",
+  "page": "https://fixture.invalid/d/calls-like",
+  "row_meaning": "one made-up call",
+  "unit": {
+    "one": "call record",
+    "many": "call records"
+  },
+  "is_not": [
+    "people",
+    "cases",
+    "a rate"
+  ],
+  "time_field": "called_at",
+  "coverage_start": "2025-01-01",
+  "floor": 10,
+  "fields": [
+    {
+      "name": "id",
+      "kind": "key"
+    },
+    {
+      "name": "race",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "race",
+      "wording": "recorded as {labels}",
+      "values": {
+        "B": "group B",
+        "BLK": "group B",
+        "W": "group W"
+      },
+      "interpreted": true,
+      "coverage": "SYNTHETIC fixture coverage text: made up for tests, no figure"
+    },
+    {
+      "name": "zone",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "zone",
+      "wording": "in {labels}",
+      "values": {
+        "E": "zone East",
+        "W": "zone West"
+      }
+    }
+  ],
+  "notices": [
+    "SYNTHETIC calls fixture notice: made up for tests; no county publishes this."
+  ],
+  "interpreted_line": "SYNTHETIC fixture line: race here is read from made-up short codes (tests only).",
+  "approved_by": "nobody (test fixture)",
+  "approved_on": "2026-11-14",
+  "approval_record": "none: a SYNTHETIC test fixture"
+}

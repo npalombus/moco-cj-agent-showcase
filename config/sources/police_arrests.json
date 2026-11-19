@@ -1,0 +1,167 @@
+{
+  "id": "MOCO:police_arrests",
+  "data_class": "COUNTY_OPEN_DATA",
+  "title": "Montgomery County Police arrests",
+  "publisher": "Montgomery County, Maryland (dataMontgomery)",
+  "address": "https://data.montgomerycountymd.gov/resource/bep7-ghja.json",
+  "page": "https://data.montgomerycountymd.gov/d/bep7-ghja",
+  "row_meaning": "one arrest",
+  "unit": {
+    "one": "arrest record",
+    "many": "arrest records"
+  },
+  "is_not": [
+    "people",
+    "charges",
+    "cases",
+    "convictions",
+    "sentences",
+    "jail population",
+    "a rate"
+  ],
+  "time_field": "event_date_time",
+  "coverage_start": "2021-01-01",
+  "floor": 10,
+  "rates": true,
+  "fields": [
+    {
+      "name": "id",
+      "kind": "key"
+    },
+    {
+      "name": "age",
+      "kind": "age",
+      "usable": [
+        10,
+        98
+      ],
+      "bands": [
+        [
+          10,
+          17
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          25,
+          34
+        ],
+        [
+          35,
+          44
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          55,
+          98
+        ]
+      ],
+      "sensitive": false
+    },
+    {
+      "name": "gender",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "gender",
+      "wording": "recorded as {labels}",
+      "values": {
+        "Female": "female",
+        "Male": "male"
+      }
+    },
+    {
+      "name": "race",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "race",
+      "wording": "recorded as {labels}",
+      "values": {
+        "Black/African American": "Black or African American",
+        "White": "White",
+        "Asian": "Asian",
+        "American Indian/ALSK Natv": "American Indian or Alaska Native",
+        "Hawaiian/Pacific Islander": "Native Hawaiian or Pacific Islander",
+        "Unknown": "race unknown"
+      }
+    },
+    {
+      "name": "ethnicity",
+      "kind": "category",
+      "person": true,
+      "sensitive": true,
+      "dimension": "ethnicity",
+      "wording": "recorded as {labels}",
+      "values": {
+        "HISPANIC": "Hispanic",
+        "NON-HISPANIC": "not Hispanic"
+      }
+    },
+    {
+      "name": "district",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "district",
+      "meaning": "the police district where it happened (the county calls the field \"District of occurrence\")",
+      "notes": [
+        "The districts are police districts. Montgomery County Police names six of them by their stations: district 1 is Rockville, district 2 is Bethesda, district 3 is Silver Spring, district 4 is Wheaton, district 5 is Germantown and district 6 is Montgomery Village.",
+        "Some records carry a district 8. It is not one of the six districts the county names, and the county's data does not say what it is."
+      ],
+      "wording": "in {labels}",
+      "values": {
+        "1": "district 1",
+        "2": "district 2",
+        "3": "district 3",
+        "4": "district 4",
+        "5": "district 5",
+        "6": "district 6",
+        "8": "district 8"
+      }
+    },
+    {
+      "name": "adjacent_to_school",
+      "kind": "flag",
+      "dimension": "distance from a school",
+      "yes_raw": "1",
+      "no_raw": "0",
+      "yes": "within 500 feet of a school",
+      "no": "not within 500 feet of a school"
+    },
+    {
+      "name": "bureau",
+      "kind": "category",
+      "person": false,
+      "sensitive": false,
+      "dimension": "bureau",
+      "wording": "recorded under {labels}",
+      "values": {
+        "PSB": "bureau PSB",
+        "SOB": "bureau SOB",
+        "ISB": "bureau ISB",
+        "MSB": "bureau MSB"
+      },
+      "note": "No bureau is recorded for about 65 in every 100 records (28,620 of 43,884 on 2026-11-11). The codes are the county's own; their full names were not checked."
+    }
+  ],
+  "not_offered": {
+    "division": "30 codes, 20,180 of 43,884 records empty, 14 codes with fewer than 100 records; left for a later approval"
+  },
+  "notes": [
+    "These are Montgomery County, Maryland's own police records, published by the county. They are not statewide Maryland records."
+  ],
+  "notices": [
+    "The data made available here has been modified for use from its original source, which is Montgomery County, Maryland (\"the County\"). THE COUNTY MAKES NO REPRESENTATIONS OR WARRANTIES AS TO THE COMPLETENESS, ACCURACY, OR TIMELINESS OF ANY DATA. THE COUNTY EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. THE COUNTY MAKES NO REPRESENTATION OR WARRANTY AS TO THE WEBISTE OR APPLICATION USING DATA DRAWN FROM DATA.MONTGOMERYCOUNTYMD.GOV OR FOR THE USEFULNESS OR INTEGRITY OF THE WEB SITE OR APPLICATION. The data is subject to change and possible deletion, temporarily or permanently. It is understood that the information contained in the web feed is being used at one's own risk.",
+    "This agent is a university course project. It is not a Montgomery County service, and the County has not taken part in, sponsored or endorsed it."
+  ],
+  "checked": "Values read from the planning chat's copy fetched 2026-11-11T17:22Z (43,884 records).",
+  "approved_by": "Nino",
+  "approved_on": "2026-11-11",
+  "approval_record": "D-039"
+}

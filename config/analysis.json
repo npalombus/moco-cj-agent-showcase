@@ -1,0 +1,15 @@
+{
+  "note": "Part S settings (docs/S3S-DESIGN.md S1, S2, S3, S8). drop_newest_months: the newest full months a model leaves out, because they may still be filling in at the county (S2; 1 to start with, not yet measured). The thresholds are S1's TOO_LITTLE rules and S3's twelve months on each side of a before_after date; the fixed lines of S10 answer 10 read their numbers from here. fit_band: S3's fit note. seconds: S2's time limit for one R run. most_analyses: S1's at most two analyze calls in a turn.",
+  "drop_newest_months": 1,
+  "min_months": 24,
+  "min_records": 100,
+  "min_cases": 100,
+  "per_coefficient": 10,
+  "min_base_year": 100,
+  "min_ages": 30,
+  "min_months_each_side": 12,
+  "fit_band": [0.90, 1.10],
+  "seconds": 60,
+  "most_analyses": 2,
+  "z": 1.959964
+}

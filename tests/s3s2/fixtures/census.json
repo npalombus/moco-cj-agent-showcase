@@ -1,0 +1,454 @@
+{
+ "note": "SYNTHETIC: made up for the Part S2 tests by tests/s3s2/fixtures/make_fixtures.py. Not Census data and not county data: every figure is invented. The groups were worked out by make_fixtures.py from the Census line labels, in the shape R8 of docs/S3S2-DESIGN.md describes.",
+ "survey": "acs/acs1",
+ "first_year": 2021,
+ "place": {
+  "state": "24",
+  "county": "031",
+  "name": "Montgomery County, Maryland"
+ },
+ "tables": {
+  "B01001": "Sex by Age",
+  "B03002": "Hispanic or Latino Origin by Race"
+ },
+ "margin_level": 0.9,
+ "margin_z": 1.645,
+ "no_margin_codes": [
+  "-555555555",
+  "*****"
+ ],
+ "breakdowns": {
+  "none": {
+   "all residents": [
+    {
+     "variable": "B01001_001",
+     "label_has": [
+      "Total"
+     ]
+    }
+   ]
+  },
+  "gender": {
+   "female": [
+    {
+     "variable": "B01001_026",
+     "label_has": [
+      "Female"
+     ]
+    }
+   ],
+   "male": [
+    {
+     "variable": "B01001_002",
+     "label_has": [
+      "Male"
+     ]
+    }
+   ]
+  },
+  "age_band": {
+   "10 to 17": [
+    {
+     "variable": "B01001_005",
+     "label_has": [
+      "Male",
+      "10 to 14 years"
+     ]
+    },
+    {
+     "variable": "B01001_006",
+     "label_has": [
+      "Male",
+      "15 to 17 years"
+     ]
+    },
+    {
+     "variable": "B01001_029",
+     "label_has": [
+      "Female",
+      "10 to 14 years"
+     ]
+    },
+    {
+     "variable": "B01001_030",
+     "label_has": [
+      "Female",
+      "15 to 17 years"
+     ]
+    }
+   ],
+   "18 to 24": [
+    {
+     "variable": "B01001_007",
+     "label_has": [
+      "Male",
+      "18 and 19 years"
+     ]
+    },
+    {
+     "variable": "B01001_008",
+     "label_has": [
+      "Male",
+      "20 years"
+     ]
+    },
+    {
+     "variable": "B01001_009",
+     "label_has": [
+      "Male",
+      "21 years"
+     ]
+    },
+    {
+     "variable": "B01001_010",
+     "label_has": [
+      "Male",
+      "22 to 24 years"
+     ]
+    },
+    {
+     "variable": "B01001_031",
+     "label_has": [
+      "Female",
+      "18 and 19 years"
+     ]
+    },
+    {
+     "variable": "B01001_032",
+     "label_has": [
+      "Female",
+      "20 years"
+     ]
+    },
+    {
+     "variable": "B01001_033",
+     "label_has": [
+      "Female",
+      "21 years"
+     ]
+    },
+    {
+     "variable": "B01001_034",
+     "label_has": [
+      "Female",
+      "22 to 24 years"
+     ]
+    }
+   ],
+   "25 to 34": [
+    {
+     "variable": "B01001_011",
+     "label_has": [
+      "Male",
+      "25 to 29 years"
+     ]
+    },
+    {
+     "variable": "B01001_012",
+     "label_has": [
+      "Male",
+      "30 to 34 years"
+     ]
+    },
+    {
+     "variable": "B01001_035",
+     "label_has": [
+      "Female",
+      "25 to 29 years"
+     ]
+    },
+    {
+     "variable": "B01001_036",
+     "label_has": [
+      "Female",
+      "30 to 34 years"
+     ]
+    }
+   ],
+   "35 to 44": [
+    {
+     "variable": "B01001_013",
+     "label_has": [
+      "Male",
+      "35 to 39 years"
+     ]
+    },
+    {
+     "variable": "B01001_014",
+     "label_has": [
+      "Male",
+      "40 to 44 years"
+     ]
+    },
+    {
+     "variable": "B01001_037",
+     "label_has": [
+      "Female",
+      "35 to 39 years"
+     ]
+    },
+    {
+     "variable": "B01001_038",
+     "label_has": [
+      "Female",
+      "40 to 44 years"
+     ]
+    }
+   ],
+   "45 to 54": [
+    {
+     "variable": "B01001_015",
+     "label_has": [
+      "Male",
+      "45 to 49 years"
+     ]
+    },
+    {
+     "variable": "B01001_016",
+     "label_has": [
+      "Male",
+      "50 to 54 years"
+     ]
+    },
+    {
+     "variable": "B01001_039",
+     "label_has": [
+      "Female",
+      "45 to 49 years"
+     ]
+    },
+    {
+     "variable": "B01001_040",
+     "label_has": [
+      "Female",
+      "50 to 54 years"
+     ]
+    }
+   ],
+   "55 to 64": [
+    {
+     "variable": "B01001_017",
+     "label_has": [
+      "Male",
+      "55 to 59 years"
+     ]
+    },
+    {
+     "variable": "B01001_018",
+     "label_has": [
+      "Male",
+      "60 and 61 years"
+     ]
+    },
+    {
+     "variable": "B01001_019",
+     "label_has": [
+      "Male",
+      "62 to 64 years"
+     ]
+    },
+    {
+     "variable": "B01001_041",
+     "label_has": [
+      "Female",
+      "55 to 59 years"
+     ]
+    },
+    {
+     "variable": "B01001_042",
+     "label_has": [
+      "Female",
+      "60 and 61 years"
+     ]
+    },
+    {
+     "variable": "B01001_043",
+     "label_has": [
+      "Female",
+      "62 to 64 years"
+     ]
+    }
+   ],
+   "65 and over": [
+    {
+     "variable": "B01001_020",
+     "label_has": [
+      "Male",
+      "65 and 66 years"
+     ]
+    },
+    {
+     "variable": "B01001_021",
+     "label_has": [
+      "Male",
+      "67 to 69 years"
+     ]
+    },
+    {
+     "variable": "B01001_022",
+     "label_has": [
+      "Male",
+      "70 to 74 years"
+     ]
+    },
+    {
+     "variable": "B01001_023",
+     "label_has": [
+      "Male",
+      "75 to 79 years"
+     ]
+    },
+    {
+     "variable": "B01001_024",
+     "label_has": [
+      "Male",
+      "80 to 84 years"
+     ]
+    },
+    {
+     "variable": "B01001_025",
+     "label_has": [
+      "Male",
+      "85 years and over"
+     ]
+    },
+    {
+     "variable": "B01001_044",
+     "label_has": [
+      "Female",
+      "65 and 66 years"
+     ]
+    },
+    {
+     "variable": "B01001_045",
+     "label_has": [
+      "Female",
+      "67 to 69 years"
+     ]
+    },
+    {
+     "variable": "B01001_046",
+     "label_has": [
+      "Female",
+      "70 to 74 years"
+     ]
+    },
+    {
+     "variable": "B01001_047",
+     "label_has": [
+      "Female",
+      "75 to 79 years"
+     ]
+    },
+    {
+     "variable": "B01001_048",
+     "label_has": [
+      "Female",
+      "80 to 84 years"
+     ]
+    },
+    {
+     "variable": "B01001_049",
+     "label_has": [
+      "Female",
+      "85 years and over"
+     ]
+    }
+   ]
+  },
+  "race_ethnicity": {
+   "Hispanic (any race)": [
+    {
+     "variable": "B03002_012",
+     "label_has": [
+      "Hispanic or Latino"
+     ]
+    }
+   ],
+   "Black, not Hispanic": [
+    {
+     "variable": "B03002_004",
+     "label_has": [
+      "Not Hispanic or Latino",
+      "Black or African American alone"
+     ]
+    }
+   ],
+   "White, not Hispanic": [
+    {
+     "variable": "B03002_003",
+     "label_has": [
+      "Not Hispanic or Latino",
+      "White alone"
+     ]
+    }
+   ],
+   "Asian, not Hispanic": [
+    {
+     "variable": "B03002_006",
+     "label_has": [
+      "Not Hispanic or Latino",
+      "Asian alone"
+     ]
+    }
+   ]
+  }
+ },
+ "records": {
+  "race_ethnicity": {
+   "Hispanic (any race)": {
+    "ethnicity": "Hispanic"
+   },
+   "Black, not Hispanic": {
+    "ethnicity": "not Hispanic",
+    "race": "Black or African American"
+   },
+   "White, not Hispanic": {
+    "ethnicity": "not Hispanic",
+    "race": "White"
+   },
+   "Asian, not Hispanic": {
+    "ethnicity": "not Hispanic",
+    "race": "Asian"
+   }
+  },
+  "gender": {
+   "female": {
+    "gender": "female"
+   },
+   "male": {
+    "gender": "male"
+   }
+  },
+  "age_band": {
+   "10 to 17": [
+    10,
+    17
+   ],
+   "18 to 24": [
+    18,
+    24
+   ],
+   "25 to 34": [
+    25,
+    34
+   ],
+   "35 to 44": [
+    35,
+    44
+   ],
+   "45 to 54": [
+    45,
+    54
+   ],
+   "55 to 64": [
+    55,
+    64
+   ],
+   "65 and over": [
+    65,
+    null
+   ]
+  }
+ }
+}
