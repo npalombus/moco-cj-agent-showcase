@@ -442,6 +442,13 @@ def _l_table(prep, source, kind, options, cfg, floor, *, lines, **_):
         levels.append([v for v in order if v in present])
         if len(levels[-1]) < 2:
             raise _bad("a control takes one value only in this selection")
+    # S3S C71 (D-089): factors and controls that say the same thing as each other (both
+    # values of a field with two values, for example) cannot be told apart, and R stops on
+    # them; such a set is refused before R runs, so the model can choose again.
+    if _rank(lines, k, levels) < 1 + k + sum(len(lv) - 1 for lv in levels):
+        raise _bad("two or more factors say the same thing in this selection (for example, "
+                   "both values of a field with two values), so their effects cannot be told "
+                   "apart; use only one of them")
     # S10 answer 3: every indicator column of a factor or a control is one coefficient;
     # the intercept is not counted.
     coefficients = k + sum(len(lv) - 1 for lv in levels)
@@ -451,6 +458,33 @@ def _l_table(prep, source, kind, options, cfg, floor, *, lines, **_):
         [f"control{j}" for j in range(1, len(options["controls"]) + 1)]
     prep["rows"], prep["levels"] = lines, levels
     prep["records"], prep["yes"], prep["coefficients"] = len(lines), yes, coefficients
+
+
+def _rank(lines, k, levels):
+    """S3S C71: the rank of the table R fits (the intercept, each factor, and each level of a
+    control but its first), found exactly from the distinct rows. It stops once the rank is
+    full, which is the usual case after a few rows."""
+    from fractions import Fraction
+    width = 1 + k + sum(len(lv) - 1 for lv in levels)
+    basis, seen = [], set()
+    for line in lines:
+        key = tuple(line[1:])
+        if key in seen:
+            continue
+        seen.add(key)
+        row = [Fraction(1)] + [Fraction(int(v)) for v in line[1:1 + k]]
+        for j, lv in enumerate(levels):
+            row += [Fraction(int(line[1 + k + j] == v)) for v in lv[1:]]
+        for pivot, b in basis:
+            if row[pivot]:
+                f = row[pivot] / b[pivot]
+                row = [x - f * y for x, y in zip(row, b)]
+        lead = next((c for c, x in enumerate(row) if x), None)
+        if lead is not None:
+            basis.append((lead, row))
+            if len(basis) == width:
+                break
+    return len(basis)
 
 
 def _s_table(prep, source, kind, options, cfg, floor, *, base, part, **_):
