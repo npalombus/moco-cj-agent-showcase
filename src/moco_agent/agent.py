@@ -261,6 +261,7 @@ class _Turn:
         self._given = None          # C65 points 4 and 5: read once, by given()
         self.too_many = False       # C64 point 3b
         self.mixed = False          # C64 point 3c
+        self.left_district = []     # S3A C73: district filters left out of a rate
         self.held = None            # T3: how the turn ends if the second try never comes
         self.own_first = None       # C43 point 1: the codes of the first own words that failed
         self.own_text = None        # C45: the latest own words, as tidied
@@ -617,7 +618,27 @@ class _Turn:
         """C64 point 3: a line for each kind of count or comparison this turn was refused."""
         return ([replies.HELD_BACK_LINE] if self.held_back else []) \
             + ([replies.too_many_line(MAX_COUNTS)] if self.too_many else []) \
-            + ([replies.MIXED_SOURCES_LINE] if self.mixed else [])
+            + ([replies.MIXED_SOURCES_LINE] if self.mixed else []) \
+            + ([replies.whole_county_line(self.left_district)] if self.left_district else [])
+
+    def whole_county(self, source, spec, kept, carried, arguments):
+        """S3A C73 (D-091): a rate is for the whole county (the Census counts no residents by
+        police district), so a district filter kept from earlier, and not named in this call, is
+        left out of the rate instead of refusing it; the reply says which. A district named in
+        the call is still refused (R10 point 7)."""
+        district = rates.district_field(source)
+        stated = {f.get("field") for f in (arguments.get("filters") or []) if isinstance(f, dict)}
+        if district is None or district in stated:
+            return spec, kept
+        dropped = [f for f in spec["filters"] if f.get("field") == district]
+        if not dropped:
+            return spec, kept
+        gone = [counting.filter_label(source, f) for f in dropped]
+        self.left_district += [g for g in gone if g not in self.left_district]
+        kept = [k for k in kept if k not in gone]
+        if not kept:
+            carried.discard("filters")
+        return dict(spec, filters=[f for f in spec["filters"] if f.get("field") != district]), kept
 
     def end_fixed(self, failure, code_without_results):
         """With results: ANSWERED, the fixed rendering, `failure` among the failure codes.
@@ -1473,6 +1494,7 @@ class _Turn:
             return filled
         spec, kept, carried = filled
         source, copy = self.sources[spec["source"]], self.copies[spec["source"]]
+        spec, kept = self.whole_county(source, spec, kept, carried, arguments)  # S3A C73
         state, ccfg = self.s.moco_state_dir, census.settings()
         try:
             plan = rates.check(source, copy, spec, arguments.get("options"), state, ccfg)

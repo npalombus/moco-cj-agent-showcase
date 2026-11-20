@@ -974,6 +974,12 @@ def _cap(phrase):
     return phrase[:1].upper() + phrase[1:]
 
 
+def whole_county_line(labels):
+    """S3A C73 (D-091): a district filter kept from earlier was left out of a rate."""
+    return (f"(A rate is for the whole county, because the Census does not count residents by "
+            f"police district, so I did not keep {join_and(labels)} from earlier.)")
+
+
 def county_fixed(results):
     """C10's fixed rendering: `I counted <count phrase>.` and ` <Groups phrase>.` per count,
     then the share and compare phrases as sentences."""

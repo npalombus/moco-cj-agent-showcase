@@ -185,6 +185,11 @@ def whole_years(period):
     return None
 
 
+def district_field(source):
+    """S3A C73: the name of the source's police-district field, or None."""
+    return _district({f["name"]: f for f in source["fields"]})
+
+
 def _district(fields):
     return next((name for name, f in fields.items() if f.get("dimension") == "district"), None)
 

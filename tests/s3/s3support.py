@@ -1257,10 +1257,24 @@ C70_SENTENCE = (' A message that asks a new question of its own, and does not ch
                 ' filters, so that nothing is kept from earlier.')
 
 
+C74_SENTENCE = (" Never ask which source: with none named, the program uses the source of your "
+                "last answer, or asks itself.")
+
+
+def without_c74(text):
+    """S3A C74 (D-091; added by the planning chat on 20 Nov without a tests session, by Nino's
+    decision): the prompt with C74's sentence taken out from its place only, right after rule
+    1's '... otherwise leave it out.' about the source."""
+    anchor = ("Give the source only if more than one is listed and the message says which; "
+              "otherwise leave it out.")
+    return text.replace(anchor + C74_SENTENCE, anchor, 1)
+
+
 def without_c70(text):
     """S3A C70 point 1 (D-087; added by the planning chat on 18 Nov without a tests session, by
     Nino's decision): the prompt with C70's sentence taken out from its place only, right after
-    rule 11's '... send it with "clear": true.'."""
+    rule 11's '... send it with "clear": true.'. Takes C74's sentence out first (D-091)."""
+    text = without_c74(text)
     anchor = '"Everyone", "overall" or "all districts" removes that filter: send it with "clear": true.'
     return text.replace(anchor + C70_SENTENCE, anchor, 1)
 

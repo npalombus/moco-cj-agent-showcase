@@ -38,7 +38,7 @@ import pytest
 
 import p1support as p1
 from p1support import Step, decline
-from s3support import TODAY_S3, CountyEnv, without_c66
+from s3support import TODAY_S3, CountyEnv, without_c66, without_c74
 from support import SUPPORTED
 
 REPO = Path(__file__).resolve().parents[2]
@@ -75,7 +75,9 @@ def text_of(path):
 
 
 def rule_1(name):
-    found = [line for line in text_of(COUNTY[name]).split("\n") if line.startswith("1. ")]
+    # S3A C74 (D-091, the planning chat): C74's sentence in rule 1 of the talk prompt is taken out
+    found = [line for line in without_c74(text_of(COUNTY[name])).split("\n")
+             if line.startswith("1. ")]
     assert len(found) == 1, f"{name}: {len(found)} lines start with '1. '"
     return found[0]
 
@@ -217,7 +219,7 @@ def test_a_county_turn_is_sent_rule_1_with_the_sentence_and_todays_date(tmp_path
     env.ask("How many arrests were there this year?", Step(decline("UNRECOGNIZED_QUESTION")))
     system = env.model.calls[0]["messages"][0]
     assert system["role"] == "system"
-    sent = system["content"].split("\n")
+    sent = without_c74(system["content"]).split("\n")  # S3A C74 (D-091)
     assert sent.count(RULE_1_C46) == 1, f"talk {talk}: rule 1 with C46's sentence was not sent"
     assert system["content"].count(SENTENCE) == 1
     assert f"Today's date: {TODAY_S3:%Y-%m-%d}" in sent, "premise: the date is given"
