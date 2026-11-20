@@ -120,8 +120,8 @@ class Store:
         (the time, the status, and of each count or statistic its kind, spec, days and, for
         a statistic, its name and options), under a key of its own."""
         if keep_given:
-            rows = self._all("SELECT created_at, record FROM agent_turns "
-                             "WHERE thread_key = ? AND status = 'ANSWERED' ORDER BY id",
+            rows = self._all("SELECT created_at, record FROM agent_turns "  # C65 point 10:
+                             "WHERE thread_key = ? ORDER BY id",  # whatever the turn's ending
                              (thread_key,))
             for created_at, record in rows:
                 try:

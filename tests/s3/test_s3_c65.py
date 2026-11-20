@@ -1151,9 +1151,11 @@ def test_p2_another_sources_statistic_is_never_read_in(tmp_path, monkeypatch, or
     assert_refused(answers[0])
 
 
-def test_p2_a_statistic_of_a_turn_that_did_not_end_answered_is_not_read(tmp_path, monkeypatch):
-    """Point 1, "the thread's ANSWERED turns": the same remembered trend in a turn that ended
-    NEEDS_INPUT is not read: under 18 in 2025 is answered."""
+def test_p2_a_statistic_of_a_turn_that_did_not_end_answered_is_read_too(tmp_path, monkeypatch):
+    """Turned round by point 10 (D-090, the planning chat): the same remembered trend in a turn
+    that ended NEEDS_INPUT is read ("details" can show it): under 18 in 2025 is refused with the
+    sentence. Was test_p2_a_statistic_of_a_turn_that_did_not_end_answered_is_not_read
+    (answered)."""
     env = CountyEnv(tmp_path, monkeypatch)
     remember_statistic(env, stored_trend())
     db = sqlite3.connect(env.tmp_path / "agent.db")
@@ -1163,7 +1165,8 @@ def test_p2_a_statistic_of_a_turn_that_did_not_end_answered_is_not_read(tmp_path
     finally:
         db.close()
     reply, answers = ask_counts(env, [spec(Y25, [U18])], P05_FIRST)
-    assert_answered(reply, answers)
+    assert_refused(answers[0])
+    assert reply.text == NEW_SENTENCE, reply.text
 
 
 # ---- SYNTHETIC mode ------------------------------------------------------------------------------
@@ -1492,3 +1495,56 @@ def test_speed_a_count_with_no_age_filter_anywhere_is_not_slowed(tmp_path, monke
             best = took if best is None else min(best, took)
         timings[thread] = best
     assert timings[THREAD_1] - timings[THREAD_2] <= 0.1, timings
+
+
+# ==== point 10 (D-090): the turns that ended asking count too ======================================
+# Written by the planning chat (no separate tests session, D-090), from point 10's "Tests" line.
+
+from p1support import ask_user  # noqa: E402
+
+
+def asked_count(env, s, question):
+    """One message whose count is made and whose turn ends asking the person (NEEDS_INPUT)."""
+    reply = env.ask(question, Step(call_of(s)), Step(ask_user("other")))
+    assert reply.status == "NEEDS_INPUT", (reply.status, reply.reason_code, reply.text)
+    return reply
+
+
+@pytest.mark.parametrize("first,second", [(U18, A10_16), (A10_16, U18)],
+                         ids=["under 18 asked, then 10 to 16", "10 to 16 asked, then under 18"])
+@pytest.mark.parametrize("with_details", [True, False], ids=["details between", "no details"])
+def test_p10_a_count_in_a_turn_that_asked_is_held(tmp_path, monkeypatch, first, second,
+                                                  with_details):
+    """Point 10: a count made in a turn that ended as a question, ("details",) then the count
+    that completes one year: refused with C62 point 2's sentence, in both orders."""
+    env = CountyEnv(tmp_path, monkeypatch)
+    asked_count(env, spec(Y25, [first]), Q_U18 if first == U18 else Q_10_16)
+    if with_details:
+        env.ask("details", Step(show_details()))
+    reply, answers = ask_counts(env, [spec(Y25, [second])], "and the other one?")
+    assert_refused(answers[0])
+    assert reply.text == NEW_SENTENCE, reply.text
+
+
+def test_p10_a_turn_that_asked_and_made_nothing_holds_nothing(tmp_path, monkeypatch):
+    env = CountyEnv(tmp_path, monkeypatch)
+    asked = env.ask(Q_U18, Step(ask_user("period")))
+    assert asked.status == "NEEDS_INPUT", (asked.status, asked.text)
+    reply, answers = ask_counts(env, [spec(Y25, [A10_16])], Q_10_16)
+    assert_answered(reply, answers)
+
+
+@pytest.mark.parametrize("talk", TALK)
+def test_p10_reset_keeps_the_count_of_a_turn_that_asked(tmp_path, monkeypatch, talk):
+    """Point 10 with point 4: under 18 counted in a turn that ended as a question, `reset`, ages
+    10 to 16: refused; the stripped record kept by reset holds the asked turn's count."""
+    env = slack_env(tmp_path, monkeypatch, MOCO_TALK=talk)
+    talk_ = Talk(env)
+    label, first = talk_.send(Q_U18, Step(call_of(spec(Y25, [U18]))), Step(ask_user("other")))
+    assert first is not None and first.status == "NEEDS_INPUT", (label, first and first.text)
+    label, _ = talk_.send("reset")
+    assert label == "reset"
+    assert given(env), "reset kept nothing of the turn that asked"
+    label, reply = talk_.count(spec(Y25, [A10_16]), Q_10_16)
+    assert_refused(env.model.answer(0))
+    assert (label, reply.text) == ("refused", NEW_SENTENCE), (label, reply.text)

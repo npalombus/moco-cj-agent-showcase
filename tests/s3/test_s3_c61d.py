@@ -235,16 +235,17 @@ def test_own_d4_a_period_kept_by_c9_from_the_message_before(tmp_path, monkeypatc
     assert_refused_turn(env, reply, env.model.answer(0, 0), before=1)
 
 
-def test_own_d5_only_turns_that_ended_answered_count(tmp_path, monkeypatch):
-    """Own 5 (Part D), correction 4: a message whose count of under 18 was made but whose turn
-    ended asking the person (NEEDS_INPUT: its figure was never sent) does not count; aged 10 to
-    16 next is answered."""
+def test_own_d5_turns_that_ended_asking_count_too(tmp_path, monkeypatch):
+    """Own 5 (Part D), turned round by C65 point 10 (D-090, the planning chat): a message whose
+    count of under 18 was made but whose turn ended asking the person (NEEDS_INPUT: its figure
+    was not sent, but "details" can show it) counts too; aged 10 to 16 next is refused. Was
+    test_own_d5_only_turns_that_ended_answered_count (answered)."""
     env = CountyEnv(tmp_path, monkeypatch)
     asked = env.ask(P05_FIRST, Step(call_of(spec(Y25, [U18]))), Step(ask_user("other")))
     assert asked.status == "NEEDS_INPUT", (asked.status, asked.reason_code, asked.text)
     assert "31" not in asked.text, "premise: the count's figure was not sent"
-    reply, answers = turn(env, [spec(Y25, [age(10, 16)])], P05_SECOND)
-    assert_answered(reply, answers)
+    reply, (answer,) = turn(env, [spec(Y25, [age(10, 16)])], P05_SECOND)
+    assert_refused_turn(env, reply, answer, before=1)  # the first turn's count saved its record
 
 
 def test_own_d6_the_store_not_the_block_the_model_is_shown(tmp_path, monkeypatch):

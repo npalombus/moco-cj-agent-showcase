@@ -1129,12 +1129,18 @@ class _Turn:
         period = stated_period
         if period is None:
             period = pending.get("period") or base.get("period")
+            every = {"from": source["coverage_start"], "to": copy.newest_day.isoformat()}
             if period is None and whole:  # S13: an analysis with no period uses every month
-                period = {"from": source["coverage_start"], "to": copy.newest_day.isoformat()}
+                period = every
             elif period is None:
                 return self.county_needs("period", {"source": sid, "period": None,
                                                     "filters": given + list(remembered.values())})
-            if not (whole and pending.get("period") is None and base.get("period") is None):
+            # S3A C72 (D-090): an analysis whose remembered period is the whole copy, the
+            # period it would use anyway, keeps nothing and says nothing was kept
+            same = whole and isinstance(period, dict) and \
+                (period.get("from"), period.get("to")) == (every["from"], every["to"])
+            if not same and not (whole and pending.get("period") is None and
+                                 base.get("period") is None):
                 carried.add("period")
         raw = {"period": period, "filters": given + list(remembered.values()),
                "group_by": arguments.get("group_by")}
@@ -1778,7 +1784,7 @@ class _Turn:
         sid = source["id"]
         made = [r["spec"] for r in self.results  # C54 point 4: this source's counts only
                 if r["kind"] == "count" and r["spec"]["source"] == sid]
-        before = [r for t in self.given() if t.get("status") == "ANSWERED"
+        before = [r for t in self.given()  # C65 point 10: of every turn, whatever its ending
                   for r in t.get("results") or []  # C61 point 10: the thread's counts too
                   if isinstance(r.get("spec"), dict) and r["spec"].get("source") == sid]
         earlier = [r for r in before if r.get("kind") == "count"]
