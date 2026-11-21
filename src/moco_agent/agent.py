@@ -1435,9 +1435,12 @@ class _Turn:
                                      options, cfg)
             except counting.SpecError as e:
                 # S13.3: a before-and-after whose period leaves too few months on a side is
-                # run on every month instead; the reply names the months used
-                if not (kind == "before_after" and e.code == "TOO_LITTLE"
-                        and e.hint.get("rule") == "sides" and spec["period"] != every):
+                # run on every month instead; the reply names the months used. C67: so is
+                # any statistic whose period came from the thread, not from this message,
+                # when that period leaves too little for it.
+                short = e.code == "TOO_LITTLE" and spec["period"] != every
+                if not (short and ("period" in carried or (
+                        kind == "before_after" and e.hint.get("rule") == "sides"))):
                     raise
                 if "period" in carried:  # S13 answer 2: a kept period not used is not kept
                     label = counting.period_label(spec["period"])
