@@ -71,8 +71,17 @@ def age_name(source):
 
 
 def _labels(f):
-    """A category's labels in file order, each once."""
-    return list(OrderedDict.fromkeys(f["values"].values()))
+    """A category's labels in file order, each once. C77: district labels in number order (the
+    county's files list them in no order)."""
+    labels = list(OrderedDict.fromkeys(f["values"].values()))
+    if labels and all(_district_number(label) is not None for label in labels):
+        labels.sort(key=_district_number)
+    return labels
+
+
+def _district_number(label):
+    head, _, number = str(label).partition(" ")
+    return int(number) if head == "district" and number.isdigit() else None
 
 
 def usable_names(source):
