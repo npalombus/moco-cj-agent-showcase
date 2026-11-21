@@ -94,6 +94,9 @@ RULE12_C57 = "a question about you (what you are, what model you run on) or abou
 # Point 8, the 13 real source files (Nino's approval, D-075).
 REAL_NOTES = ["These are Montgomery County, Maryland's own police records, published by the "
               "county. They are not statewide Maryland records."]
+WEAPON_NOTE = ("The county's weapon pointing file holds only a few records for each month before "
+               "February 2022, against many more from then on, so I count from 1 February 2022 "
+               "and leave the earlier ones out.")
 DISTRICT_MEANING = ('the police district where it happened (the county calls the field '
                     '"District of occurrence")')
 # Changed by briefs/S3-R23-A-tests.md: "C61, two additions after the threads", point 7 (17 Nov 17:37
@@ -684,7 +687,10 @@ def test_point8_each_real_file_holds_the_keys(path):
     """Point 8, word for word: the top-level notes; the district field's meaning; its notes, with
     the district 8 sentence only in a file whose district values hold a district 8."""
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data.get("notes") == REAL_NOTES, data.get("notes")
+    # Turned round for C75 (D-093, planning chat, 21 Nov 2026): weapon pointing adds one note
+    # saying why it counts from 1 February 2022.
+    extra = [WEAPON_NOTE] if path.stem == "weapon_pointing" else []
+    assert data.get("notes") == REAL_NOTES + extra, data.get("notes")
     district = _field(data, "district")
     assert district.get("meaning") == DISTRICT_MEANING, district.get("meaning")
     eight = "district 8" in district["values"].values()

@@ -1072,12 +1072,17 @@ def period_words(period):
             return f"from {MONTHS[m['from'] - 1]} to {MONTHS[m['to'] - 1]} {period['year']}"
         return f"in {period['year']}"
     first, last = date.fromisoformat(period["from"]), date.fromisoformat(period["to"])
+    if first == last:  # C76: one day reads "on 25 December 2024", not "from ... to" the same day
+        return f"on {day_text(first)}"
+    if (first.year, first.month) == (last.year, last.month) and first.day == 1 and \
+            last.day == calendar.monthrange(last.year, last.month)[1]:  # C76: one whole month
+        return f"in {MONTHS[first.month - 1]} {first.year}"
     return f"from {day_text(first)} to {day_text(last)}"
 
 
 def period_label(period):
     words = period_words(period)
-    return words[3:] if words.startswith("in ") else words
+    return words[3:] if words.startswith(("in ", "on ")) else words
 
 
 def cut_suffix(period, newest):

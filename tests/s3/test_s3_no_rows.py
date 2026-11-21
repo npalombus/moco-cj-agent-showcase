@@ -131,8 +131,9 @@ def test_a_period_that_holds_one_record_shows_fewer_than_10(tmp_path, monkeypatc
     reply = env.ask(Q_COUNT, Step(count(A_ID, dates("2026-09-17", "2026-09-17"))),
                     Step(finish("finding", "I counted {r1.count}.")))
     assert reply.status == "ANSWERED", (reply.status, reply.reason_code, reply.text)
-    assert reply.text.startswith("I counted fewer than 10 arrest records from 17 September 2026 "
-                                 "to 17 September 2026."), reply.text
+    # Turned round for C76 (D-093, planning chat, 21 Nov 2026): one day reads "on ...".
+    assert reply.text.startswith("I counted fewer than 10 arrest records on 17 September 2026."), \
+        reply.text
     # C36 point 5 (S3-R6-A): `details` goes to the model, which calls show_details
     details = env.ask("details", Step(show_details()))
     rows = but_the_newest(fixture_rows("arrests_like"))
